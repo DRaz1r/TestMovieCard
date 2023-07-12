@@ -19,8 +19,8 @@ class Play extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1) {
         super(parent, __localStorage, elmtId);
         this.source = router.getParams()['source'];
-        this.startIconResource = { "id": 16777220, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
-        this.backIconResource = { "id": 16777342, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
+        this.startIconResource = { "id": 16777543, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
+        this.backIconResource = { "id": 16777566, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
         this.__isPlay = new ObservedPropertySimplePU(false, this, "isPlay");
         this.addProvidedVar("isPlay", this.__isPlay);
         this.__isOpacity = new ObservedPropertySimplePU(false, this, "isOpacity");
@@ -150,7 +150,7 @@ class Play extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777230, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.create({ "id": 16777228, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.debugLine("pages/SimpleVideoPlay.ets(55:9)");
             Text.fontColor(Color.White);
             Text.fontSize(24 /* FOURTH_MARGIN */);

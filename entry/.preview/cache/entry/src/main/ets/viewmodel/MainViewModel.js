@@ -24,10 +24,10 @@ export class MainViewModel {
      */
     getSwiperImages() {
         let swiperImages = [
-            { "id": 16777569, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
-            { "id": 16777367, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
-            { "id": 16777375, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
-            { "id": 16777365, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
+            { "id": 16777541, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
+            { "id": 16777555, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
+            { "id": 16777303, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
+            { "id": 16777540, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
         ];
         return swiperImages;
     }
@@ -38,14 +38,14 @@ export class MainViewModel {
      */
     getFirstGridData() {
         let firstGridData = [
-            new ItemData({ "id": 16777249, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777350, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
-            new ItemData({ "id": 16777234, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777565, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
-            new ItemData({ "id": 16777245, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777563, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
-            new ItemData({ "id": 16777310, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777344, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
-            new ItemData({ "id": 16777305, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777352, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
-            new ItemData({ "id": 16777302, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777287, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
-            new ItemData({ "id": 16777300, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777398, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
-            new ItemData({ "id": 16777309, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777290, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" })
+            new ItemData({ "id": 16777264, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777339, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
+            new ItemData({ "id": 16777238, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777301, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
+            new ItemData({ "id": 16777258, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777553, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
+            new ItemData({ "id": 16777287, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777535, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
+            new ItemData({ "id": 16777263, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777526, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
+            new ItemData({ "id": 16777237, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777547, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
+            new ItemData({ "id": 16777234, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777546, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
+            new ItemData({ "id": 16777274, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777532, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" })
         ];
         return firstGridData;
     }
@@ -56,10 +56,10 @@ export class MainViewModel {
      */
     getSecondGridData() {
         let secondGridData = [
-            new ItemData({ "id": 16777244, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777396, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777385, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
-            new ItemData({ "id": 16777381, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777559, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777384, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
-            new ItemData({ "id": 16777379, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777374, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777382, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
-            new ItemData({ "id": 16777380, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777353, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777383, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" })
+            new ItemData({ "id": 16777256, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777340, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777255, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
+            new ItemData({ "id": 16777249, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777549, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777254, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
+            new ItemData({ "id": 16777247, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777558, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777252, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
+            new ItemData({ "id": 16777248, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777307, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777253, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" })
         ];
         return secondGridData;
     }
@@ -70,10 +70,10 @@ export class MainViewModel {
      */
     getSettingListData() {
         let settingListData = [
-            new ItemData({ "id": 16777391, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777347, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777393, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
-            new ItemData({ "id": 16777248, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777289, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, null),
-            new ItemData({ "id": 16777234, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777268, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, null),
-            new ItemData({ "id": 16777245, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777564, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, null),
+            new ItemData({ "id": 16777283, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777525, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777286, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }),
+            new ItemData({ "id": 16777262, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777567, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, null),
+            new ItemData({ "id": 16777238, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777320, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, null),
+            new ItemData({ "id": 16777258, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, { "id": 16777309, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }, null),
         ];
         return settingListData;
     }

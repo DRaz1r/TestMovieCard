@@ -78,7 +78,7 @@ class MovieDetailPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
             Column.debugLine("pages/MovieDetailsPage.ets(53:7)");
-            Column.backgroundColor({ "id": 16777318, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Column.backgroundColor({ "id": 16777345, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 Column.pop();
             }
@@ -86,17 +86,17 @@ class MovieDetailPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777266, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.create({ "id": 16777294, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.debugLine("pages/MovieDetailsPage.ets(54:9)");
             Text.fontWeight(FontWeight.Bolder);
-            Text.fontSize({ "id": 16777482, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777452, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.alignSelf(ItemAlign.Start);
             Text.margin({
                 left: StyleConstants.COMMON_MARGIN_LEFT,
                 top: StyleConstants.DETAILS_COMMON_MARGIN,
                 bottom: StyleConstants.DETAILS_COMMON_MARGIN
             });
-            Text.height({ "id": 16777416, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.height({ "id": 16777386, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 Text.pop();
             }

@@ -65,10 +65,10 @@ export default class MovieStills extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777263, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.create({ "id": 16777291, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.debugLine("view/MovieStills.ets(31:9)");
-            Text.fontSize({ "id": 16777541, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Text.fontColor({ "id": 16777319, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777511, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777346, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Bolder);
             if (!isInitialRender) {
                 Text.pop();
@@ -78,16 +78,16 @@ export default class MovieStills extends ViewPU {
         Text.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777264, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.create({ "id": 16777292, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.debugLine("view/MovieStills.ets(35:9)");
-            Text.fontSize({ "id": 16777535, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Text.opacity({ "id": 16777409, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Text.fontColor({ "id": 16777319, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777505, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.opacity({ "id": 16777379, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777346, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.layoutWeight(StyleConstants.WEIGHT_ONE);
             Text.width(StyleConstants.STILLS_TEXT_WIDTH);
             Text.textAlign(TextAlign.End);
             Text.fontWeight(FontWeight.Normal);
-            Text.margin({ right: { "id": 16777540, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
+            Text.margin({ right: { "id": 16777510, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -96,10 +96,10 @@ export default class MovieStills extends ViewPU {
         Text.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777372, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.create({ "id": 16777552, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Image.debugLine("view/MovieStills.ets(44:9)");
-            Image.width({ "id": 16777439, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Image.height({ "id": 16777438, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.width({ "id": 16777409, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.height({ "id": 16777408, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 Image.pop();
             }
@@ -115,7 +115,7 @@ export default class MovieStills extends ViewPU {
             List.margin({ left: StyleConstants.COMMON_MARGIN_LEFT,
                 bottom: StyleConstants.DETAILS_COMMON_MARGIN });
             List.width(StyleConstants.STILLS_LIST_WIDTH);
-            List.height({ "id": 16777539, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            List.height({ "id": 16777509, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 List.pop();
             }
@@ -145,9 +145,9 @@ export default class MovieStills extends ViewPU {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Image.create(item);
                             Image.debugLine("view/MovieStills.ets(59:13)");
-                            Image.width({ "id": 16777538, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-                            Image.height({ "id": 16777536, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-                            Image.borderRadius({ "id": 16777537, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+                            Image.width({ "id": 16777508, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+                            Image.height({ "id": 16777506, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+                            Image.borderRadius({ "id": 16777507, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Image.pop();
                             }
@@ -162,9 +162,9 @@ export default class MovieStills extends ViewPU {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Image.create(item);
                             Image.debugLine("view/MovieStills.ets(59:13)");
-                            Image.width({ "id": 16777538, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-                            Image.height({ "id": 16777536, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-                            Image.borderRadius({ "id": 16777537, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+                            Image.width({ "id": 16777508, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+                            Image.height({ "id": 16777506, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+                            Image.borderRadius({ "id": 16777507, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Image.pop();
                             }

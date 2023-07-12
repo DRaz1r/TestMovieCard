@@ -248,10 +248,10 @@ export class CommonUtils {
     loginCheckArkTS(account, password) {
         let check = '';
         if (account === '') {
-            return { "id": 16777386, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
+            return { "id": 16777270, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
         }
         else if (password === '') {
-            return { "id": 16777387, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
+            return { "id": 16777271, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
         }
         else {
             check = CommonConstants.LOGIN_TEXT;

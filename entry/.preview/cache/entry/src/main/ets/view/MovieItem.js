@@ -88,14 +88,14 @@ export default class MovieItem extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Row.create();
             Row.debugLine("view/MovieItem.ets(52:5)");
-            Row.borderRadius({ "id": 16777445, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Row.borderRadius({ "id": 16777415, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Row.backgroundColor(Color.White);
             Row.margin({
-                left: { "id": 16777444, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
-                right: { "id": 16777446, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
+                left: { "id": 16777414, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
+                right: { "id": 16777416, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
             });
             Row.width(StyleConstants.ITEM_WIDTH);
-            Row.height({ "id": 16777443, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Row.height({ "id": 16777413, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 Row.pop();
             }
@@ -105,7 +105,7 @@ export default class MovieItem extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Stack.create({ alignContent: Alignment.TopStart });
             Stack.debugLine("view/MovieItem.ets(53:7)");
-            Stack.margin({ left: { "id": 16777484, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
+            Stack.margin({ left: { "id": 16777454, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Stack.pop();
             }
@@ -116,9 +116,9 @@ export default class MovieItem extends ViewPU {
             Image.create(this.movieImage);
             Image.debugLine("view/MovieItem.ets(54:9)");
             Image.objectFit(ImageFit.Cover);
-            Image.borderRadius({ "id": 16777485, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Image.width({ "id": 16777486, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Image.height({ "id": 16777483, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.borderRadius({ "id": 16777455, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.width({ "id": 16777456, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.height({ "id": 16777453, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 Image.pop();
             }
@@ -133,8 +133,8 @@ export default class MovieItem extends ViewPU {
                         ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                         Image.create(this.sortImage);
                         Image.debugLine("view/MovieItem.ets(60:11)");
-                        Image.width({ "id": 16777525, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-                        Image.height({ "id": 16777525, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+                        Image.width({ "id": 16777495, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+                        Image.height({ "id": 16777495, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
                         if (!isInitialRender) {
                             Image.pop();
                         }
@@ -158,8 +158,8 @@ export default class MovieItem extends ViewPU {
             Column.debugLine("view/MovieItem.ets(67:7)");
             Column.layoutWeight(StyleConstants.WEIGHT_ONE);
             Column.margin({
-                left: { "id": 16777411, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
-                right: { "id": 16777412, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
+                left: { "id": 16777381, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
+                right: { "id": 16777382, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
             });
             if (!isInitialRender) {
                 Column.pop();
@@ -170,9 +170,9 @@ export default class MovieItem extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.title);
             Text.debugLine("view/MovieItem.ets(68:9)");
-            Text.fontSize({ "id": 16777487, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777457, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Bolder);
-            Text.fontColor({ "id": 16777319, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777346, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.alignSelf(ItemAlign.Start);
             if (!isInitialRender) {
                 Text.pop();
@@ -199,10 +199,10 @@ export default class MovieItem extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.describe);
             Text.debugLine("view/MovieItem.ets(77:9)");
-            Text.fontSize({ "id": 16777415, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Text.fontColor({ "id": 16777319, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777385, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777346, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Normal);
-            Text.opacity({ "id": 16777409, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.opacity({ "id": 16777379, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.alignSelf(ItemAlign.Start);
             if (!isInitialRender) {
                 Text.pop();
@@ -213,17 +213,17 @@ export default class MovieItem extends ViewPU {
         Column.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777267, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.create({ "id": 16777296, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.debugLine("view/MovieItem.ets(90:7)");
             Text.fontWeight(FontWeight.Bolder);
-            Text.fontSize({ "id": 16777501, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777471, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.textAlign(TextAlign.Center);
             Text.fontColor(Color.White);
-            Text.borderRadius({ "id": 16777499, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Text.backgroundColor({ "id": 16777334, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Text.margin({ right: { "id": 16777500, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
-            Text.width({ "id": 16777502, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Text.height({ "id": 16777497, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.borderRadius({ "id": 16777469, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.backgroundColor({ "id": 16777361, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.margin({ right: { "id": 16777470, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
+            Text.width({ "id": 16777472, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.height({ "id": 16777467, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.onClick(() => {
                 router.pushUrl({
                     url: CommonConstants.SEE_BUTTON_PUSH,

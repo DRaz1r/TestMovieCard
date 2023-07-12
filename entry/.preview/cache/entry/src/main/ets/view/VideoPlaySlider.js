@@ -119,7 +119,7 @@ export class VideoSlider extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create(this.isPlay ? { "id": 16777552, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } : { "id": 16777312, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.create(this.isPlay ? { "id": 16777559, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } : { "id": 16777531, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Image.debugLine("view/VideoPlaySlider.ets(45:7)");
             Image.width(IMAGE_SIZE);
             Image.height(IMAGE_SIZE);
@@ -155,10 +155,10 @@ export class VideoSlider extends ViewPU {
                 style: SliderStyle.OutSet
             });
             Slider.debugLine("view/VideoPlaySlider.ets(56:7)");
-            Slider.blockColor({ "id": 16777341, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Slider.blockColor({ "id": 16777368, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Slider.width("56.7%" /* SLIDER_WITH */);
             Slider.trackColor(Color.Gray);
-            Slider.selectedColor({ "id": 16777341, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Slider.selectedColor({ "id": 16777368, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Slider.showSteps(true);
             Slider.showTips(true);
             Slider.trackThickness(this.isOpacity ? SMALL_TRACK_THICK_NESS : BIG_TRACK_THICK_NESS);

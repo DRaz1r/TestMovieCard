@@ -62,7 +62,7 @@ export class MovieListPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
             Column.debugLine("pages/MovieListPage.ets(48:7)");
-            Column.backgroundColor({ "id": 16777318, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Column.backgroundColor({ "id": 16777345, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Column.width(StyleConstants.FULL_WIDTH);
             Column.height(StyleConstants.FULL_HEIGHT);
             if (!isInitialRender) {
@@ -78,7 +78,7 @@ export class MovieListPage extends ViewPU {
             // 文本-热门电影预览
             Text.fontWeight(FontWeight.Bolder);
             // 文本-热门电影预览
-            Text.fontSize({ "id": 16777451, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777421, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             // 文本-热门电影预览
             Text.alignSelf(ItemAlign.Start);
             // 文本-热门电影预览
@@ -88,7 +88,7 @@ export class MovieListPage extends ViewPU {
                 bottom: StyleConstants.LIST_TITLE_MARGIN
             });
             // 文本-热门电影预览
-            Text.height({ "id": 16777450, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.height({ "id": 16777420, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 // 文本-热门电影预览
                 Text.pop();
@@ -111,7 +111,7 @@ export class MovieListPage extends ViewPU {
             // 滚动-电影海报
             Swiper.width(StyleConstants.ITEM_WIDTH);
             // 滚动-电影海报
-            Swiper.height({ "id": 16777443, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Swiper.height({ "id": 16777413, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 // 滚动-电影海报
                 Swiper.pop();
@@ -127,7 +127,7 @@ export class MovieListPage extends ViewPU {
                     ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                     Image.create(img);
                     Image.debugLine("pages/MovieListPage.ets(65:13)");
-                    Image.borderRadius({ "id": 16777435, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+                    Image.borderRadius({ "id": 16777405, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
                     if (!isInitialRender) {
                         Image.pop();
                     }
@@ -146,12 +146,12 @@ export class MovieListPage extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             // 文本-热门电影排行
-            Text.create({ "id": 16777237, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.create({ "id": 16777242, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.debugLine("pages/MovieListPage.ets(75:9)");
             // 文本-热门电影排行
             Text.fontWeight(FontWeight.Bolder);
             // 文本-热门电影排行
-            Text.fontSize({ "id": 16777451, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777421, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             // 文本-热门电影排行
             Text.alignSelf(ItemAlign.Start);
             // 文本-热门电影排行
@@ -161,7 +161,7 @@ export class MovieListPage extends ViewPU {
                 bottom: StyleConstants.LIST_TITLE_MARGIN
             });
             // 文本-热门电影排行
-            Text.height({ "id": 16777450, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.height({ "id": 16777420, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 // 文本-热门电影排行
                 Text.pop();

@@ -14,30 +14,30 @@
  */
 export const SWIPER_VIDEOS = [
     {
-        "image": { "id": 16777313, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
+        "image": { "id": 16777300, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
     },
     {
-        "image": { "id": 16777360, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
+        "image": { "id": 16777523, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
     },
     {
-        "image": { "id": 16777292, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
+        "image": { "id": 16777544, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
     }
 ];
 //可以注释掉
 export const HORIZONTAL_VIDEOS = [
     {
         "id": 1,
-        "image": { "id": 16777359, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
+        "image": { "id": 16777369, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
         "name": '视频1'
     },
     {
         "id": 2,
-        "image": { "id": 16777361, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
+        "image": { "id": 16777529, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
         "name": '视频2'
     },
     {
         "id": 3,
-        "image": { "id": 16777397, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
+        "image": { "id": 16777539, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
         "name": '视频3'
     }
 ];

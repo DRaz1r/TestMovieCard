@@ -5,9 +5,9 @@
         "bundleName" : "com.huawei.moviecard",
         "debug" : true,
         "icon" : "$media:app_icon",
-        "iconId" : 16777217,
+        "iconId" : 16777216,
         "label" : "$string:app_name",
-        "labelId" : 16777216,
+        "labelId" : 16777217,
         "minAPIVersion" : 9,
         "targetAPIVersion" : 9,
         "vendor" : "example",
@@ -20,12 +20,12 @@
         [
             {
                 "description" : "$string:EntryAbility_desc",
-                "descriptionId" : 16777222,
+                "descriptionId" : 16777219,
                 "exported" : true,
                 "icon" : "$media:icon",
-                "iconId" : 16777314,
+                "iconId" : 16777316,
                 "label" : "$string:EntryAbility_label",
-                "labelId" : 16777223,
+                "labelId" : 16777220,
                 "name" : "EntryAbility",
                 "orientation" : "portrait",
                 "skills" : 
@@ -43,31 +43,31 @@
                 ],
                 "srcEntry" : "./ets/entryability/EntryAbility.ets",
                 "startWindowBackground" : "$color:start_window_background",
-                "startWindowBackgroundId" : 16777338,
+                "startWindowBackgroundId" : 16777365,
                 "startWindowIcon" : "$media:icon",
-                "startWindowIconId" : 16777314
+                "startWindowIconId" : 16777316
             },
             {
                 "description" : "$string:MovieDetailsAbility_desc",
-                "descriptionId" : 16777226,
+                "descriptionId" : 16777223,
                 "exported" : true,
                 "icon" : "$media:icon",
-                "iconId" : 16777314,
+                "iconId" : 16777316,
                 "label" : "$string:MovieDetailsAbility_label",
-                "labelId" : 16777227,
+                "labelId" : 16777224,
                 "name" : "EntryDetailsAbility",
                 "srcEntry" : "./ets/detailsability/EntryDetailsAbility.ets",
                 "startWindowBackground" : "$color:start_window_background",
-                "startWindowBackgroundId" : 16777338,
+                "startWindowBackgroundId" : 16777365,
                 "startWindowIcon" : "$media:icon",
-                "startWindowIconId" : 16777314
+                "startWindowIconId" : 16777316
             }
         ],
         "compileMode" : "esmodule",
         "deliveryWithInstall" : true,
         "dependencies" : [],
         "description" : "$string:module_desc",
-        "descriptionId" : 16777247,
+        "descriptionId" : 16777260,
         "deviceTypes" : 
         [
             "phone"
@@ -76,15 +76,15 @@
         [
             {
                 "description" : "$string:EntryFormAbility_desc",
-                "descriptionId" : 16777224,
+                "descriptionId" : 16777221,
                 "label" : "$string:EntryFormAbility_label",
-                "labelId" : 16777225,
+                "labelId" : 16777222,
                 "metadata" : 
                 [
                     {
                         "name" : "ohos.extension.form",
                         "resource" : "$profile:form_config",
-                        "resourceId" : 16777369
+                        "resourceId" : 16777561
                     }
                 ],
                 "name" : "EntryFormAbility",
