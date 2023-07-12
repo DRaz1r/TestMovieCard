@@ -17,6 +17,7 @@ import StyleConstants from '@bundle:com.huawei.moviecard/entry/ets/common/consta
 import CommonUtils from '@bundle:com.huawei.moviecard/entry/ets/common/utils/CommonUtils';
 import StarsWidget from '@bundle:com.huawei.moviecard/entry/ets/view/StarsWidget';
 import Logger from '@bundle:com.huawei.moviecard/entry/ets/common/utils/Logger';
+import router from '@ohos:router';
 export default class MovieDetailsTitle extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1) {
         super(parent, __localStorage, elmtId);
@@ -71,7 +72,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Row.create();
-            Row.debugLine("view/MovieDetailsTitle.ets(45:5)");
+            Row.debugLine("view/MovieDetailsTitle.ets(46:5)");
             Row.alignSelf(ItemAlign.Start);
             if (!isInitialRender) {
                 Row.pop();
@@ -81,7 +82,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Image.create(this.movieImage);
-            Image.debugLine("view/MovieDetailsTitle.ets(46:7)");
+            Image.debugLine("view/MovieDetailsTitle.ets(47:7)");
             Image.objectFit(ImageFit.Cover);
             Image.borderRadius({ "id": 16777518, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Image.margin({ left: StyleConstants.COMMON_MARGIN_LEFT });
@@ -95,7 +96,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
-            Column.debugLine("view/MovieDetailsTitle.ets(52:7)");
+            Column.debugLine("view/MovieDetailsTitle.ets(53:7)");
             Column.layoutWeight(StyleConstants.WEIGHT_ONE);
             Column.margin({ left: { "id": 16777468, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
             if (!isInitialRender) {
@@ -106,7 +107,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.title);
-            Text.debugLine("view/MovieDetailsTitle.ets(53:9)");
+            Text.debugLine("view/MovieDetailsTitle.ets(54:9)");
             Text.fontSize({ "id": 16777520, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Bolder);
             Text.fontColor({ "id": 16777346, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
@@ -135,7 +136,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.describe);
-            Text.debugLine("view/MovieDetailsTitle.ets(62:9)");
+            Text.debugLine("view/MovieDetailsTitle.ets(63:9)");
             Text.fontSize({ "id": 16777384, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.fontColor({ "id": 16777346, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Normal);
@@ -151,7 +152,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Row.create();
-            Row.debugLine("view/MovieDetailsTitle.ets(70:9)");
+            Row.debugLine("view/MovieDetailsTitle.ets(71:9)");
             Row.width('100%');
             if (!isInitialRender) {
                 Row.pop();
@@ -161,7 +162,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create({ "id": 16777296, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Text.debugLine("view/MovieDetailsTitle.ets(71:11)");
+            Text.debugLine("view/MovieDetailsTitle.ets(72:11)");
             Text.fontWeight(FontWeight.Bolder);
             Text.fontSize({ "id": 16777471, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.textAlign(TextAlign.Center);
@@ -181,7 +182,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(('购票'));
-            Text.debugLine("view/MovieDetailsTitle.ets(82:11)");
+            Text.debugLine("view/MovieDetailsTitle.ets(83:11)");
             Text.fontWeight(FontWeight.Bolder);
             Text.fontSize({ "id": 16777471, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.textAlign(TextAlign.Center);
@@ -192,6 +193,20 @@ export default class MovieDetailsTitle extends ViewPU {
             Text.width({ "id": 16777472, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.height({ "id": 16777467, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.margin({ right: '10vp', left: '10vp' });
+            Text.onClick(() => {
+                router.pushUrl({
+                    url: 'pages/WebShopPage',
+                    params: {
+                        weburl: 'https://developer.harmonyos.com/'
+                    }
+                })
+                    .then(() => {
+                    // success
+                })
+                    .catch(err => {
+                    console.error(`pushUrl failed, code is ${err.code}, message is ${err.message}`);
+                });
+            });
             if (!isInitialRender) {
                 Text.pop();
             }

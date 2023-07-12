@@ -19,6 +19,7 @@ import CommonUtils from '../common/utils/CommonUtils';
 import MovieDataBean from '../common/bean/MovieDataBean';
 import StarsWidget from './StarsWidget';
 import Logger from '../common/utils/Logger';
+import router from '@ohos.router';
 
 @Component
 export default struct MovieDetailsTitle {
@@ -90,6 +91,20 @@ export default struct MovieDetailsTitle {
             .width($r("app.float.see_button_width"))
             .height($r("app.float.see_button_height"))
             .margin({right: '10vp', left: '10vp'})
+            .onClick(() => {
+              router.pushUrl({
+                url: 'pages/WebShopPage',
+                params: {
+                  weburl: 'https://developer.harmonyos.com/'
+                }
+              })
+                .then(() => {
+                  // success
+                })
+                .catch(err => {
+                  console.error(`pushUrl failed, code is ${err.code}, message is ${err.message}`);
+                })
+            })
         }
         .width('100%')
 
