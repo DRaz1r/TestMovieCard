@@ -1,0 +1,256 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "secondPage",
+      "value": "pages/play"
+    },
+    {
+      "name": "slider_startTime",
+      "value": "00:00"
+    },
+    {
+      "name": "back",
+      "value": "video"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Main program entry"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MovieCard"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "Service Card Entry"
+    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "Service Card"
+    },
+    {
+      "name": "expand_text",
+      "value": "Unfolding"
+    },
+    {
+      "name": "collapse_text",
+      "value": "Collapse "
+    },
+    {
+      "name": "text_movie_details",
+      "value": "Movie Details "
+    },
+    {
+      "name": "want_to_see",
+      "value": "Want to see"
+    },
+    {
+      "name": "story_introduction",
+      "value": "Synopsis of the story"
+    },
+    {
+      "name": "starring_text",
+      "value": "Starring"
+    },
+    {
+      "name": "starring_count",
+      "value": "All 6"
+    },
+    {
+      "name": "actors",
+      "value": "Xiao Ming"
+    },
+    {
+      "name": "play_the_role",
+      "value": "Decorated Da Bai"
+    },
+    {
+      "name": "stills",
+      "value": "Stills"
+    },
+    {
+      "name": "stills_count",
+      "value": "All 4"
+    },
+    {
+      "name": "list_page_title",
+      "value": "Popular Movie Rankings"
+    },
+    {
+      "name": "MovieDetailsAbility_desc",
+      "value": "MovieDetailsDescription"
+    },
+    {
+      "name": "MovieDetailsAbility_label",
+      "value": "MovieCardDetails"
+    },
+    {
+      "name": "login_page",
+      "value": "Login page"
+    },
+    {
+      "name": "login_more",
+      "value": "Log in to your account to use more services"
+    },
+    {
+      "name": "account",
+      "value": "Account"
+    },
+    {
+      "name": "password",
+      "value": "Password"
+    },
+    {
+      "name": "login",
+      "value": "Log in"
+    },
+    {
+      "name": "register_account",
+      "value": "Registering an Account"
+    },
+    {
+      "name": "forgot_password",
+      "value": "Forgot Password"
+    },
+    {
+      "name": "message_login",
+      "value": "SMS verification code login"
+    },
+    {
+      "name": "other_login_method",
+      "value": "Other login methods"
+    },
+    {
+      "name": "input_empty_tips",
+      "value": "The input cannot be empty."
+    },
+    {
+      "name": "login_success",
+      "value": "The login is successful."
+    },
+    {
+      "name": "my_love",
+      "value": "My favorite"
+    },
+    {
+      "name": "history_record",
+      "value": "History"
+    },
+    {
+      "name": "message",
+      "value": "Message"
+    },
+    {
+      "name": "shopping_cart",
+      "value": "Shopping cart"
+    },
+    {
+      "name": "my_goal",
+      "value": "My goal"
+    },
+    {
+      "name": "group",
+      "value": "Group"
+    },
+    {
+      "name": "favorites",
+      "value": "Favorites"
+    },
+    {
+      "name": "recycle_bin",
+      "value": "Recycle Bin"
+    },
+    {
+      "name": "rankings",
+      "value": "Rankings"
+    },
+    {
+      "name": "new_product_debut",
+      "value": "New product debut"
+    },
+    {
+      "name": "big_name_flash",
+      "value": "Big name flash"
+    },
+    {
+      "name": "find_good",
+      "value": "Find good things"
+    },
+    {
+      "name": "xiamen_station",
+      "value": "Xiamen Station, we'll see you."
+    },
+    {
+      "name": "more_big_names",
+      "value": "More Big Names"
+    },
+    {
+      "name": "push_notifications",
+      "value": "Push Notifications"
+    },
+    {
+      "name": "data_management",
+      "value": "Data Management"
+    },
+    {
+      "name": "menu_settings",
+      "value": "Menu Settings"
+    },
+    {
+      "name": "about",
+      "value": "About"
+    },
+    {
+      "name": "clear_cache",
+      "value": "Clear Cache"
+    },
+    {
+      "name": "mainPage_tabTitles_home",
+      "value": "Home"
+    },
+    {
+      "name": "mainPage_tabTitles_mine",
+      "value": "Mine"
+    },
+    {
+      "name": "mainPage_top",
+      "value": "Rankings"
+    },
+    {
+      "name": "setting_account_name",
+      "value": "Mr. Lee"
+    },
+    {
+      "name": "setting_account_email",
+      "value": "2000000@shenhua.cc"
+    },
+    {
+      "name": "setting_list_about",
+      "value": "About"
+    },
+    {
+      "name": "setting_list_storage",
+      "value": "Clear cache succeeded"
+    },
+    {
+      "name": "my_favorite",
+      "value": "My Favorite"
+    },
+    {
+      "name": "incomplete_toast",
+      "value": "This function is not perfect, please look forward to it."
+    },
+    {
+      "name": "phone_number",
+      "value": "Your Number"
+    },
+    {
+      "name": "setting_list_news",
+      "value": "Push Notifications"
+    }
+  ]
+}

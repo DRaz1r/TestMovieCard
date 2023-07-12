@@ -1,0 +1,108 @@
+{
+    "app" : 
+    {
+        "apiReleaseType" : "Release",
+        "bundleName" : "com.huawei.moviecard",
+        "debug" : true,
+        "icon" : "$media:app_icon",
+        "iconId" : 16777217,
+        "label" : "$string:app_name",
+        "labelId" : 16777216,
+        "minAPIVersion" : 9,
+        "targetAPIVersion" : 9,
+        "vendor" : "example",
+        "versionCode" : 1000000,
+        "versionName" : "1.0.0"
+    },
+    "module" : 
+    {
+        "abilities" : 
+        [
+            {
+                "description" : "$string:EntryAbility_desc",
+                "descriptionId" : 16777222,
+                "exported" : true,
+                "icon" : "$media:icon",
+                "iconId" : 16777314,
+                "label" : "$string:EntryAbility_label",
+                "labelId" : 16777223,
+                "name" : "EntryAbility",
+                "orientation" : "portrait",
+                "skills" : 
+                [
+                    {
+                        "actions" : 
+                        [
+                            "action.system.home"
+                        ],
+                        "entities" : 
+                        [
+                            "entity.system.home"
+                        ]
+                    }
+                ],
+                "srcEntry" : "./ets/entryability/EntryAbility.ets",
+                "startWindowBackground" : "$color:start_window_background",
+                "startWindowBackgroundId" : 16777338,
+                "startWindowIcon" : "$media:icon",
+                "startWindowIconId" : 16777314
+            },
+            {
+                "description" : "$string:MovieDetailsAbility_desc",
+                "descriptionId" : 16777226,
+                "exported" : true,
+                "icon" : "$media:icon",
+                "iconId" : 16777314,
+                "label" : "$string:MovieDetailsAbility_label",
+                "labelId" : 16777227,
+                "name" : "EntryDetailsAbility",
+                "srcEntry" : "./ets/detailsability/EntryDetailsAbility.ets",
+                "startWindowBackground" : "$color:start_window_background",
+                "startWindowBackgroundId" : 16777338,
+                "startWindowIcon" : "$media:icon",
+                "startWindowIconId" : 16777314
+            }
+        ],
+        "compileMode" : "esmodule",
+        "deliveryWithInstall" : true,
+        "dependencies" : [],
+        "description" : "$string:module_desc",
+        "descriptionId" : 16777247,
+        "deviceTypes" : 
+        [
+            "phone"
+        ],
+        "extensionAbilities" : 
+        [
+            {
+                "description" : "$string:EntryFormAbility_desc",
+                "descriptionId" : 16777224,
+                "label" : "$string:EntryFormAbility_label",
+                "labelId" : 16777225,
+                "metadata" : 
+                [
+                    {
+                        "name" : "ohos.extension.form",
+                        "resource" : "$profile:form_config",
+                        "resourceId" : 16777369
+                    }
+                ],
+                "name" : "EntryFormAbility",
+                "srcEntry" : "./ets/entryformability/EntryFormAbility.ets",
+                "type" : "form"
+            }
+        ],
+        "installationFree" : false,
+        "mainElement" : "EntryAbility",
+        "name" : "entry",
+        "pages" : "$profile:main_pages",
+        "requestPermissions" : 
+        [
+            {
+                "name" : "ohos.permission.INTERNET"
+            }
+        ],
+        "type" : "entry",
+        "virtualMachine" : "ark9.0.0.0"
+    }
+}

@@ -1,0 +1,219 @@
+import StyleConstants from '@bundle:com.huawei.moviecard/entry/ets/common/constants/StyleConstants';
+import router from '@ohos:router';
+function __TextInput__inputStyle() {
+    TextInput.placeholderColor({ "id": 16777332, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+    TextInput.height({ "id": 16777460, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+    TextInput.fontSize({ "id": 16777488, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+    TextInput.backgroundColor(Color.White);
+    TextInput.margin({ top: { "id": 16777440, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
+    TextInput.padding({ left: StyleConstants.INPUT_PADDING_LEFT });
+}
+class RegisterPage extends ViewPU {
+    constructor(parent, params, __localStorage, elmtId = -1) {
+        super(parent, __localStorage, elmtId);
+        this.setInitiallyProvidedValue(params);
+    }
+    setInitiallyProvidedValue(params) {
+    }
+    updateStateVars(params) {
+    }
+    purgeVariableDependenciesOnElmtId(rmElmtId) {
+    }
+    aboutToBeDeleted() {
+        SubscriberManager.Get().delete(this.id__());
+        this.aboutToBeDeletedInternal();
+    }
+    initialRender() {
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            Column.create();
+            Column.debugLine("pages/RegisterPage.ets(19:5)");
+            Column.padding({
+                left: { "id": 16777455, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
+                right: { "id": 16777458, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
+                bottom: { "id": 16777464, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
+            });
+            Column.backgroundColor({ "id": 16777316, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Column.height('100%');
+            if (!isInitialRender) {
+                Column.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            Row.create();
+            Row.debugLine("pages/RegisterPage.ets(20:7)");
+            Row.width('100%');
+            Row.height('10%');
+            if (!isInitialRender) {
+                Row.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            Button.createWithChild({ type: ButtonType.Circle, stateEffect: true });
+            Button.debugLine("pages/RegisterPage.ets(21:9)");
+            Button.height({ "id": 16777489, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Button.width({ "id": 16777489, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Button.backgroundColor({ "id": 16777316, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Button.onClick(() => {
+                router.back();
+                console.log("Click back button");
+            });
+            if (!isInitialRender) {
+                Button.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            Image.create({ "id": 16777342, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.debugLine("pages/RegisterPage.ets(22:11)");
+            if (!isInitialRender) {
+                Image.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        Button.pop();
+        Row.pop();
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            Row.create();
+            Row.debugLine("pages/RegisterPage.ets(34:7)");
+            Row.height('30%');
+            if (!isInitialRender) {
+                Row.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            Image.create({ "id": 16777346, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.debugLine("pages/RegisterPage.ets(35:9)");
+            Image.height({ "id": 16777489, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.width({ "id": 16777489, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.backgroundColor({ "id": 16777316, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.margin('10vp');
+            if (!isInitialRender) {
+                Image.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        Row.pop();
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            Column.create();
+            Column.debugLine("pages/RegisterPage.ets(43:7)");
+            Column.backgroundColor(Color.White);
+            Column.borderRadius({ "id": 16777461, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            if (!isInitialRender) {
+                Column.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            TextInput.create({ placeholder: { "id": 16777228, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
+            TextInput.debugLine("pages/RegisterPage.ets(44:9)");
+            TextInput.maxLength(StyleConstants.INPUT_ACCOUNT_LENGTH);
+            TextInput.type(InputType.Number);
+            __TextInput__inputStyle();
+            TextInput.onChange(() => {
+            });
+            if (!isInitialRender) {
+                TextInput.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            Line.create();
+            Line.debugLine("pages/RegisterPage.ets(51:9)");
+            Line.width(StyleConstants.FULL_PARENT);
+            Line.height({ "id": 16777447, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Line.margin({
+                left: { "id": 16777448, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
+                right: { "id": 16777449, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
+            });
+            Line.backgroundColor({ "id": 16777322, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            if (!isInitialRender) {
+                Line.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            TextInput.create({ placeholder: { "id": 16777251, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
+            TextInput.debugLine("pages/RegisterPage.ets(60:9)");
+            TextInput.maxLength(StyleConstants.INPUT_PASSWORD_LENGTH);
+            TextInput.type(InputType.Password);
+            __TextInput__inputStyle();
+            TextInput.onChange(() => {
+            });
+            if (!isInitialRender) {
+                TextInput.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            Line.create();
+            Line.debugLine("pages/RegisterPage.ets(66:9)");
+            Line.width(StyleConstants.FULL_PARENT);
+            Line.height({ "id": 16777447, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Line.margin({
+                left: { "id": 16777448, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" },
+                right: { "id": 16777449, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
+            });
+            Line.backgroundColor({ "id": 16777322, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            if (!isInitialRender) {
+                Line.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            TextInput.create({ placeholder: ('确认密码') });
+            TextInput.debugLine("pages/RegisterPage.ets(75:9)");
+            TextInput.maxLength(StyleConstants.INPUT_PASSWORD_LENGTH);
+            TextInput.type(InputType.Password);
+            __TextInput__inputStyle();
+            TextInput.onChange(() => {
+            });
+            if (!isInitialRender) {
+                TextInput.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        Column.pop();
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            Button.createWithLabel('注册');
+            Button.debugLine("pages/RegisterPage.ets(85:7)");
+            Button.type(ButtonType.Capsule);
+            Button.height({ "id": 16777454, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Button.fontSize({ "id": 16777488, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Button.width(StyleConstants.FULL_PARENT);
+            Button.fontWeight(FontWeight.Medium);
+            Button.margin({ top: '50vp' });
+            Button.onClick(() => {
+                console.log("click register button");
+            });
+            if (!isInitialRender) {
+                Button.pop();
+            }
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        Button.pop();
+        Column.pop();
+    }
+    rerender() {
+        this.updateDirtyElements();
+    }
+}
+ViewStackProcessor.StartGetAccessRecordingFor(ViewStackProcessor.AllocateNewElmetIdForNextComponent());
+loadDocument(new RegisterPage(undefined, {}));
+ViewStackProcessor.StopGetAccessRecording();
+//# sourceMappingURL=RegisterPage.js.map

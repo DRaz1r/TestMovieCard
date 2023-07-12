@@ -1,0 +1,196 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "secondPage",
+      "value": "pages/play"
+    },
+    {
+      "name": "slider_startTime",
+      "value": "00:00"
+    },
+    {
+      "name": "back",
+      "value": "视频"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "主程序入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "电影卡片"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "服务卡片入口"
+    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "服务卡片"
+    },
+    {
+      "name": "expand_text",
+      "value": "展开"
+    },
+    {
+      "name": "collapse_text",
+      "value": "收起"
+    },
+    {
+      "name": "text_movie_details",
+      "value": "电影详情"
+    },
+    {
+      "name": "want_to_see",
+      "value": "想看"
+    },
+    {
+      "name": "story_introduction",
+      "value": "剧情简介"
+    },
+    {
+      "name": "starring_text",
+      "value": "主演"
+    },
+    {
+      "name": "starring_count",
+      "value": "全部 6"
+    },
+    {
+      "name": "actors",
+      "value": "小明"
+    },
+    {
+      "name": "play_the_role",
+      "value": "饰 大白"
+    },
+    {
+      "name": "stills",
+      "value": "剧照"
+    },
+    {
+      "name": "stills_count",
+      "value": "全部 4"
+    },
+    {
+      "name": "list_page_title",
+      "value": "热门电影排行"
+    },
+    {
+      "name": "MovieDetailsAbility_desc",
+      "value": "电影详情描述"
+    },
+    {
+      "name": "MovieDetailsAbility_label",
+      "value": "电影详情"
+    },
+    {
+      "name": "login_page",
+      "value": "登陆页面"
+    },
+    {
+      "name": "login_more",
+      "value": "登陆账号以使用更多功能"
+    },
+    {
+      "name": "account",
+      "value": "账号"
+    },
+    {
+      "name": "password",
+      "value": "密码"
+    },
+    {
+      "name": "login",
+      "value": "登陆"
+    },
+    {
+      "name": "register_account",
+      "value": "注册"
+    },
+    {
+      "name": "forgot_password",
+      "value": "忘记密码"
+    },
+    {
+      "name": "message_login",
+      "value": "手机登陆"
+    },
+    {
+      "name": "other_login_method",
+      "value": "其他登陆方式"
+    },
+    {
+      "name": "mainPage_tabTitles_home",
+      "value": "主页"
+    },
+    {
+      "name": "mainPage_tabTitles_mine",
+      "value": "我的"
+    },
+    {
+      "name": "mainPage_top",
+      "value": "排名"
+    },
+    {
+      "name": "setting_account_name",
+      "value": "李先生"
+    },
+    {
+      "name": "setting_account_email",
+      "value": "2000000@shenhua.cc"
+    },
+    {
+      "name": "setting_list_about",
+      "value": "关于"
+    },
+    {
+      "name": "setting_list_storage",
+      "value": "清除缓存成功"
+    },
+    {
+      "name": "input_empty_tips",
+      "value": "输入不能为空"
+    },
+    {
+      "name": "login_success",
+      "value": "登陆成功"
+    },
+    {
+      "name": "my_love",
+      "value": "我的收藏"
+    },
+    {
+      "name": "history_record",
+      "value": "历史记录"
+    },
+    {
+      "name": "message",
+      "value": "消息"
+    },
+    {
+      "name": "my_favorite",
+      "value": "我的收藏"
+    },
+    {
+      "name": "incomplete_toast",
+      "value": "此功能未完善，敬请期待"
+    },
+    {
+      "name": "phone_number",
+      "value": "手机号"
+    },
+    {
+      "name": "push_notifications",
+      "value": "消息管理"
+    },
+    {
+      "name": "setting_list_news",
+      "value": "消息推送"
+    }
+  ]
+}
