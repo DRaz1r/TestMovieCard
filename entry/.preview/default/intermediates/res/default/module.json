@@ -20,12 +20,12 @@
         [
             {
                 "description" : "$string:EntryAbility_desc",
-                "descriptionId" : 16777219,
+                "descriptionId" : 16777220,
                 "exported" : true,
                 "icon" : "$media:icon",
-                "iconId" : 16777316,
+                "iconId" : 16777327,
                 "label" : "$string:EntryAbility_label",
-                "labelId" : 16777220,
+                "labelId" : 16777221,
                 "name" : "EntryAbility",
                 "orientation" : "portrait",
                 "skills" : 
@@ -43,31 +43,31 @@
                 ],
                 "srcEntry" : "./ets/entryability/EntryAbility.ets",
                 "startWindowBackground" : "$color:start_window_background",
-                "startWindowBackgroundId" : 16777366,
+                "startWindowBackgroundId" : 16777384,
                 "startWindowIcon" : "$media:icon",
-                "startWindowIconId" : 16777316
+                "startWindowIconId" : 16777327
             },
             {
                 "description" : "$string:MovieDetailsAbility_desc",
-                "descriptionId" : 16777223,
+                "descriptionId" : 16777224,
                 "exported" : true,
                 "icon" : "$media:icon",
-                "iconId" : 16777316,
+                "iconId" : 16777327,
                 "label" : "$string:MovieDetailsAbility_label",
-                "labelId" : 16777224,
+                "labelId" : 16777225,
                 "name" : "EntryDetailsAbility",
                 "srcEntry" : "./ets/detailsability/EntryDetailsAbility.ets",
                 "startWindowBackground" : "$color:start_window_background",
-                "startWindowBackgroundId" : 16777366,
+                "startWindowBackgroundId" : 16777384,
                 "startWindowIcon" : "$media:icon",
-                "startWindowIconId" : 16777316
+                "startWindowIconId" : 16777327
             }
         ],
         "compileMode" : "esmodule",
         "deliveryWithInstall" : true,
         "dependencies" : [],
         "description" : "$string:module_desc",
-        "descriptionId" : 16777260,
+        "descriptionId" : 16777267,
         "deviceTypes" : 
         [
             "phone"
@@ -76,15 +76,15 @@
         [
             {
                 "description" : "$string:EntryFormAbility_desc",
-                "descriptionId" : 16777221,
+                "descriptionId" : 16777222,
                 "label" : "$string:EntryFormAbility_label",
-                "labelId" : 16777222,
+                "labelId" : 16777223,
                 "metadata" : 
                 [
                     {
                         "name" : "ohos.extension.form",
                         "resource" : "$profile:form_config",
-                        "resourceId" : 16777567
+                        "resourceId" : 16777610
                     }
                 ],
                 "name" : "EntryFormAbility",

@@ -62,10 +62,10 @@ export class MainViewModel {
    */
   getSecondGridData(): Array<ItemData> {
     let secondGridData: ItemData[] = [
-      new ItemData($r('app.string.mainPage_top'), $r('app.media.top'), $r('app.string.mainPage_text_top')),
-      new ItemData($r('app.string.mainPage_new'), $r('app.media.new'), $r('app.string.mainPage_text_new')),
-      new ItemData($r('app.string.mainPage_brand'), $r('app.media.brand'), $r('app.string.mainPage_text_brand')),
-      new ItemData($r('app.string.mainPage_found'), $r('app.media.found'), $r('app.string.mainPage_text_found'))
+      new ItemData($r('app.string.mainPage_top'), $r('app.media.top'), $r('app.string.xiamen_station')),
+      new ItemData($r('app.string.mainPage_new'), $r('app.media.new'), $r('app.string.xiamen_station')),
+      new ItemData($r('app.string.mainPage_brand'), $r('app.media.brand'), $r('app.string.xiamen_station')),
+      new ItemData($r('app.string.mainPage_found'), $r('app.media.found'), $r('app.string.xiamen_station'))
     ];
     return secondGridData;
   }

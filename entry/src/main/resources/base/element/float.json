@@ -133,6 +133,42 @@
       "value": "12vp"
     },
     {
+      "name": "dialog_blank_height",
+      "value": "32vp"
+    },
+    {
+      "name": "dialog_blank_width",
+      "value": "1vp"
+    },
+    {
+      "name": "dialog_fancy_text_size",
+      "value": "16fp"
+    },
+    {
+      "name": "dialog_text_declaration_bottom",
+      "value": "24"
+    },
+    {
+      "name": "dialog_text_opacity",
+      "value": "0.6"
+    },
+    {
+      "name": "dialog_common_text_size",
+      "value": "18fp"
+    },
+    {
+      "name": "dialog_text_privacy_bottom",
+      "value": "12vp"
+    },
+    {
+      "name": "dialog_text_privacy_top",
+      "value": "24vp"
+    },
+    {
+      "name": "dialog_text_privacy_size",
+      "value": "20fp"
+    },
+    {
       "name": "see_button_right",
       "value": "12vp"
     },
@@ -617,8 +653,44 @@
       "value": "44vp"
     },
     {
+      "name": "advertising_text_padding_right",
+      "value": "12vp"
+    },
+    {
+      "name": "advertising_text_border_width",
+      "value": "1"
+    },
+    {
+      "name": "advertising_text_padding_top",
+      "value": "8vp"
+    },
+    {
+      "name": "advertising_text_padding_bottom",
+      "value": "8vp"
+    },
+    {
+      "name": "advertising_text_padding_left",
+      "value": "12vp"
+    },
+    {
+      "name": "advertising_title_text_margin_top",
+      "value": "30vp"
+    },
+    {
+      "name": "advertising_title_text_margin_left",
+      "value": "260vp"
+    },
+    {
+      "name": "advertising_text_radius",
+      "value": "18vp"
+    },
+    {
       "name": "introduction_image_height",
       "value": "57vp"
+    },
+    {
+      "name": "advertising_text_font_size",
+      "value": "12fp"
     },
     {
       "name": "agency_row_padding",
@@ -627,6 +699,30 @@
     {
       "name": "card_padding",
       "value": "4vp"
+    },
+    {
+      "name": "launcher_logo_size",
+      "value": "119vp"
+    },
+    {
+      "name": "launcher_life_text_width",
+      "value": "105vp"
+    },
+    {
+      "name": "launcher_life_text_height",
+      "value": "35vp"
+    },
+    {
+      "name": "launcher_text_title_size",
+      "value": "26fp"
+    },
+    {
+      "name": "launcher_text_introduce_size",
+      "value": "16fp"
+    },
+    {
+      "name": "launcher_text_opacity",
+      "value": "0.6"
     }
   ]
 }

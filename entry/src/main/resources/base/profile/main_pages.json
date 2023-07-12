@@ -6,6 +6,8 @@
     "pages/MainPage",
     "pages/LoginMessagePage",
     "pages/SimpleVideoPlay",
-    "pages/WebShopPage"
+    "pages/WebShopPage",
+    "pages/LauncherPage",
+    "pages/AdvertisingPage"
   ]
 }

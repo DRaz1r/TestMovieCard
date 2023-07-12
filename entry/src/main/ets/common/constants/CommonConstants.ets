@@ -169,7 +169,137 @@ export const STACK_STYLE = {
  * Common constants for all features.
  */
 export default class CommonConstants {
+  /**
+   * Launcher page count down.
+   */
+  static readonly LAUNCHER_DELAY_TIME: number = 3000;
+  /**
+   * Advertising page url.
+   */
+  static readonly ADVERTISING_PAGE_URL: string = 'pages/AdvertisingPage';
 
+  /**
+   * Display countdown seconds.
+   */
+  static readonly ADVERTISING_COUNT_DOWN_SECONDS: number = 2;
+  /**
+   * Interval execution time.
+   */
+  static readonly ADVERTISING_INTERVAL_TIME: number = 1000;
+  /**
+   * The advertsing page tag.
+   */
+  static readonly ADVERTISING_PAGE_TAG: string = 'AdvertisingPage';
+
+  /**
+   * App home page url.
+   */
+  static readonly APP_HOME_PAGE_URL: string = 'pages/LoginPage';
+
+  /**
+   * Count down text spacing.
+   */
+  static readonly ADVERTISING_TITLE_TEXT_LETTER_SPACING: number = 0.05;
+
+  /**
+   * Preference saved file name.
+   */
+  static readonly PREFERENCES_FILE_NAME: string = 'myStore';
+
+  /**
+   * Healthy living text spacing.
+   */
+  static readonly LAUNCHER_LIFE_TEXT_SPACING: number = 0.1;
+
+  /**
+   * Healthy living title text top margin.
+   */
+  static readonly LAUNCHER_TEXT_TITLE_MARGIN_TOP: string = '0.5%';
+
+  /**
+   * Content control height.
+   */
+  static readonly LAUNCHER_TEXT_INTRODUCE_HEIGHT: string = '2.7%';
+
+  /**
+   * Healthy living instructions.
+   */
+  static readonly LAUNCHER_TEXT_INTRODUCE_SPACING: number = 3.4;
+
+  /**
+   * Healthy living content top margin.
+   */
+  static readonly LAUNCHER_TEXT_INTRODUCE_MARGIN_TOP: string = '1.3%';
+
+  /**
+   * Image logo top margin.
+   */
+  static readonly LAUNCHER_IMAGE_MARGIN_TOP: string = '16.2%';
+
+  /**
+   * Width the percentage of the 100.
+   */
+  static readonly FULL_WIDTH: string = '100%';
+
+  /**
+   * Height the percentage of the 100.
+   */
+  static readonly FULL_HEIGHT: string = '100%';
+
+  /**
+   * Preference saved key.
+   */
+  static readonly PREFERENCES_KEY_PRIVACY: string = 'isPrivacy';
+
+  /**
+   * The launcher page tag.
+   */
+  static readonly LAUNCHER_PAGE_TAG: string = 'LauncherPage';
+
+  /**
+   * Dialog y-axis offset distance.
+   */
+  static readonly DIALOG_CONTROLLER_DY_OFFSET: number = -24;
+
+  /**
+   * Dialog width the percentage of the 93.3.
+   */
+  static readonly DIALOG_WIDTH_PERCENT: string = '93.3%';
+
+  /**
+   * Dialog border radius.
+   */
+  static readonly DIALOG_BORDER_RADIUS: number = 24;
+
+  /**
+   * Common layout weight.
+   */
+  static readonly COMMON_LAYOUT_WEIGHT: number = 1;
+
+  /**
+   * Dialog component bottom margin,
+   */
+  static readonly DIALOG_ROW_MARGIN_BOTTOM: string = '3.1%';
+
+  /**
+   * The custom dialog component tag.
+   */
+  static readonly CUSTOM_DIALOG_TAG: string = 'CustomDialogComponent';
+
+  /**
+   * Privacy page url.
+   */
+  static readonly PRIVACY_PAGE_URL: string = 'pages/PrivacyPage';
+
+  /**
+   * Dialog title text weight.
+   */
+
+  static readonly DIALOG_TITLE_FONT_WEIGHT: number = 600;
+  /**
+   * Dialog component width the percentage of the 90.
+   */
+  static readonly DIALOG_COMPONENT_WIDTH_PERCENT: string = '90%';
 
   /**
    * Break point sm of the tag.

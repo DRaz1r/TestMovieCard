@@ -29,6 +29,10 @@
       "value": "#182431"
     },
     {
+      "name": "advertising_text_background_color",
+      "value": "#33000000"
+    },
+    {
       "name": "more_text_color",
       "value": "#99182431"
     },
@@ -45,8 +49,32 @@
       "value": "#FFFFFF"
     },
     {
+      "name": "launcher_text_introduce_color",
+      "value": "#182431"
+    },
+    {
+      "name": "launcher_text_title_color",
+      "value": "#182431"
+    },
+    {
       "name": "background",
       "value": "#F1F3F5"
+    },
+    {
+      "name": "dialog_fancy_text_color",
+      "value": "#007DFF"
+    },
+    {
+      "name": "dialog_blank_background_color",
+      "value": "#F5F5F5"
+    },
+    {
+      "name": "dialog_text_statement_color",
+      "value": "#007DFF"
+    },
+    {
+      "name": "dialog_text_color",
+      "value": "#182431"
     },
     {
       "name": "title_text_color",
