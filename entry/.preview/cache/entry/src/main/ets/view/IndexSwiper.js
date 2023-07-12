@@ -36,7 +36,7 @@ export class SwiperVideo extends ViewPU {
             Column.debugLine("view/IndexSwiper.ets(26:5)");
             Column.height("24.1%" /* INDEX_SWIPER_HEIGHT_PERCENT */);
             Column.width("93.3%" /* INDEX_COMPONENT_WITH_PERCENT */);
-            Column.backgroundColor({ "id": 16777368, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Column.backgroundColor({ "id": 16777369, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Column.margin({
                 left: "3.3%" /* INDEX_SWIPER_LEFT_RIGHT_MARGIN */,
                 right: "3.3%" /* INDEX_SWIPER_LEFT_RIGHT_MARGIN */,

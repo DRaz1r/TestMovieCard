@@ -24,7 +24,6 @@ import mainViewModel from '../viewmodel/MainViewModel';
  * The message is displayed on the notification bar. The card data can be updated normally.
  * Developers can open the notification bar.
  */
-@Entry
 @Component
 export struct MovieListPage {
   // Lazy loading of matching data sources.
@@ -63,6 +62,7 @@ export struct MovieListPage {
         Swiper(this.swiperController) {
           ForEach(mainViewModel.getSwiperImages(), (img: Resource) => {
             Image(img).borderRadius($r('app.float.home_swiper_borderRadius'))
+
           }, img => img.id)
         }
         .margin({ top: '20vp' })

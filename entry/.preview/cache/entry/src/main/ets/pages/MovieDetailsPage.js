@@ -22,6 +22,7 @@ import StoryIntroduce from '@bundle:com.huawei.moviecard/entry/ets/view/StoryInt
 import MovieDetailsTitle from '@bundle:com.huawei.moviecard/entry/ets/view/MovieDetailsTitle';
 import Logger from '@bundle:com.huawei.moviecard/entry/ets/common/utils/Logger';
 import { SwiperVideo } from '@bundle:com.huawei.moviecard/entry/ets/view/IndexSwiper';
+import { TRANSITION_ANIMATION_DURATION, CUSTOM_TRANSITION_OPACITY, CUSTOM_TRANSITION_SCALE, CUSTOM_TRANSITION_TRANSLATE } from '@bundle:com.huawei.moviecard/entry/ets/common/constants/CommonConstants';
 class MovieDetailPage extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1) {
         super(parent, __localStorage, elmtId);
@@ -66,7 +67,7 @@ class MovieDetailPage extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Scroll.create();
-            Scroll.debugLine("pages/MovieDetailsPage.ets(52:5)");
+            Scroll.debugLine("pages/MovieDetailsPage.ets(58:5)");
             Scroll.edgeEffect(EdgeEffect.Fade);
             Scroll.scrollBarWidth(6);
             if (!isInitialRender) {
@@ -77,8 +78,8 @@ class MovieDetailPage extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
-            Column.debugLine("pages/MovieDetailsPage.ets(53:7)");
-            Column.backgroundColor({ "id": 16777345, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Column.debugLine("pages/MovieDetailsPage.ets(59:7)");
+            Column.backgroundColor({ "id": 16777346, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 Column.pop();
             }
@@ -87,16 +88,16 @@ class MovieDetailPage extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create({ "id": 16777294, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Text.debugLine("pages/MovieDetailsPage.ets(54:9)");
+            Text.debugLine("pages/MovieDetailsPage.ets(60:9)");
             Text.fontWeight(FontWeight.Bolder);
-            Text.fontSize({ "id": 16777452, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777458, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.alignSelf(ItemAlign.Start);
             Text.margin({
                 left: StyleConstants.COMMON_MARGIN_LEFT,
                 top: StyleConstants.DETAILS_COMMON_MARGIN,
                 bottom: StyleConstants.DETAILS_COMMON_MARGIN
             });
-            Text.height({ "id": 16777386, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.height({ "id": 16777389, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -106,7 +107,7 @@ class MovieDetailPage extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
-            Column.debugLine("pages/MovieDetailsPage.ets(64:9)");
+            Column.debugLine("pages/MovieDetailsPage.ets(70:9)");
             if (!isInitialRender) {
                 Column.pop();
             }
@@ -144,7 +145,7 @@ class MovieDetailPage extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create({ space: 24 /* FOURTH_MARGIN */ });
-            Column.debugLine("pages/MovieDetailsPage.ets(73:9)");
+            Column.debugLine("pages/MovieDetailsPage.ets(79:9)");
             if (!isInitialRender) {
                 Column.pop();
             }
@@ -199,6 +200,27 @@ class MovieDetailPage extends ViewPU {
         }
         Column.pop();
         Scroll.pop();
+    }
+    pageTransition() {
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            PageTransition.create();
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            PageTransitionEnter.create({ duration: TRANSITION_ANIMATION_DURATION, curve: Curve.Smooth });
+            PageTransitionEnter.opacity(CUSTOM_TRANSITION_OPACITY);
+            PageTransitionEnter.scale(CUSTOM_TRANSITION_SCALE);
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        this.observeComponentCreation((elmtId, isInitialRender) => {
+            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            PageTransitionExit.create({ duration: TRANSITION_ANIMATION_DURATION, curve: Curve.Smooth });
+            PageTransitionExit.translate(CUSTOM_TRANSITION_TRANSLATE);
+            ViewStackProcessor.StopGetAccessRecording();
+        });
+        PageTransition.pop();
     }
     rerender() {
         this.updateDirtyElements();

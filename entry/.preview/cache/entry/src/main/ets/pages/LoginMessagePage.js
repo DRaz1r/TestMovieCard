@@ -55,8 +55,8 @@ class SecondPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Button.createWithChild({ type: ButtonType.Circle, stateEffect: true });
             Button.debugLine("pages/LoginMessagePage.ets(12:9)");
-            Button.height({ "id": 16777459, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Button.width({ "id": 16777459, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Button.height({ "id": 16777465, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Button.width({ "id": 16777465, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Button.backgroundColor({ "id": 16777343, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Button.onClick(() => {
                 router.back();
@@ -69,7 +69,7 @@ class SecondPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777566, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Image.create({ "id": 16777572, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Image.debugLine("pages/LoginMessagePage.ets(13:11)");
             if (!isInitialRender) {
                 Image.pop();
@@ -131,13 +131,13 @@ class SecondPage extends ViewPU {
             Button.createWithLabel(this.isSend ? '请稍后再试' : '发送短信到您的手机');
             Button.debugLine("pages/LoginMessagePage.ets(43:9)");
             Button.width('255vp');
-            Button.height({ "id": 16777424, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Button.fontSize({ "id": 16777458, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Button.height({ "id": 16777430, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Button.fontSize({ "id": 16777464, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Button.fontWeight(FontWeight.Medium);
-            Button.backgroundColor({ "id": 16777352, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Button.backgroundColor({ "id": 16777353, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Button.margin({
                 top: ('15vp'),
-                bottom: { "id": 16777423, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
+                bottom: { "id": 16777429, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" }
             });
             Button.type(ButtonType.Capsule);
             Button.onClick(() => {
@@ -228,11 +228,11 @@ class SecondPage extends ViewPU {
     }
 }
 function __TextInput__inputStyle() {
-    TextInput.placeholderColor({ "id": 16777359, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-    TextInput.height({ "id": 16777430, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-    TextInput.fontSize({ "id": 16777458, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+    TextInput.placeholderColor({ "id": 16777360, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+    TextInput.height({ "id": 16777436, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+    TextInput.fontSize({ "id": 16777464, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
     TextInput.backgroundColor(Color.White);
-    TextInput.margin({ top: { "id": 16777410, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
+    TextInput.margin({ top: { "id": 16777414, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
     TextInput.padding({ left: StyleConstants.INPUT_PADDING_LEFT });
 }
 ViewStackProcessor.StartGetAccessRecordingFor(ViewStackProcessor.AllocateNewElmetIdForNextComponent());

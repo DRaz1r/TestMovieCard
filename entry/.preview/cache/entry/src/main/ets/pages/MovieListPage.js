@@ -52,7 +52,7 @@ export class MovieListPage extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Scroll.create();
-            Scroll.debugLine("pages/MovieListPage.ets(47:5)");
+            Scroll.debugLine("pages/MovieListPage.ets(46:5)");
             if (!isInitialRender) {
                 Scroll.pop();
             }
@@ -61,8 +61,8 @@ export class MovieListPage extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
-            Column.debugLine("pages/MovieListPage.ets(48:7)");
-            Column.backgroundColor({ "id": 16777345, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Column.debugLine("pages/MovieListPage.ets(47:7)");
+            Column.backgroundColor({ "id": 16777346, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Column.width(StyleConstants.FULL_WIDTH);
             Column.height(StyleConstants.FULL_HEIGHT);
             if (!isInitialRender) {
@@ -74,11 +74,11 @@ export class MovieListPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             // 文本-热门电影预览
             Text.create('热门电影预览');
-            Text.debugLine("pages/MovieListPage.ets(51:9)");
+            Text.debugLine("pages/MovieListPage.ets(50:9)");
             // 文本-热门电影预览
             Text.fontWeight(FontWeight.Bolder);
             // 文本-热门电影预览
-            Text.fontSize({ "id": 16777421, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777427, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             // 文本-热门电影预览
             Text.alignSelf(ItemAlign.Start);
             // 文本-热门电影预览
@@ -88,7 +88,7 @@ export class MovieListPage extends ViewPU {
                 bottom: StyleConstants.LIST_TITLE_MARGIN
             });
             // 文本-热门电影预览
-            Text.height({ "id": 16777420, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.height({ "id": 16777426, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 // 文本-热门电影预览
                 Text.pop();
@@ -101,7 +101,7 @@ export class MovieListPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             // 滚动-电影海报
             Swiper.create(this.swiperController);
-            Swiper.debugLine("pages/MovieListPage.ets(63:9)");
+            Swiper.debugLine("pages/MovieListPage.ets(62:9)");
             // 滚动-电影海报
             Swiper.margin({ top: '20vp' });
             // 滚动-电影海报
@@ -111,7 +111,7 @@ export class MovieListPage extends ViewPU {
             // 滚动-电影海报
             Swiper.width(StyleConstants.ITEM_WIDTH);
             // 滚动-电影海报
-            Swiper.height({ "id": 16777413, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Swiper.height({ "id": 16777419, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 // 滚动-电影海报
                 Swiper.pop();
@@ -126,8 +126,8 @@ export class MovieListPage extends ViewPU {
                 this.observeComponentCreation((elmtId, isInitialRender) => {
                     ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                     Image.create(img);
-                    Image.debugLine("pages/MovieListPage.ets(65:13)");
-                    Image.borderRadius({ "id": 16777405, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+                    Image.debugLine("pages/MovieListPage.ets(64:13)");
+                    Image.borderRadius({ "id": 16777409, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
                     if (!isInitialRender) {
                         Image.pop();
                     }
@@ -151,7 +151,7 @@ export class MovieListPage extends ViewPU {
             // 文本-热门电影排行
             Text.fontWeight(FontWeight.Bolder);
             // 文本-热门电影排行
-            Text.fontSize({ "id": 16777421, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777427, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             // 文本-热门电影排行
             Text.alignSelf(ItemAlign.Start);
             // 文本-热门电影排行
@@ -161,7 +161,7 @@ export class MovieListPage extends ViewPU {
                 bottom: StyleConstants.LIST_TITLE_MARGIN
             });
             // 文本-热门电影排行
-            Text.height({ "id": 16777420, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Text.height({ "id": 16777426, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             if (!isInitialRender) {
                 // 文本-热门电影排行
                 Text.pop();
@@ -263,7 +263,4 @@ export class MovieListPage extends ViewPU {
         this.updateDirtyElements();
     }
 }
-ViewStackProcessor.StartGetAccessRecordingFor(ViewStackProcessor.AllocateNewElmetIdForNextComponent());
-loadDocument(new MovieListPage(undefined, {}));
-ViewStackProcessor.StopGetAccessRecording();
 //# sourceMappingURL=MovieListPage.js.map

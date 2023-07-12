@@ -1,7 +1,6 @@
 import StyleConstants from '../common/constants/StyleConstants'
 import router from '@ohos.router'
 
-
 @Extend(TextInput) function inputStyle() {
   .placeholderColor($r('app.color.placeholder_color'))
   .height($r('app.float.login_input_height'))
@@ -101,4 +100,5 @@ struct RegisterPage {
     .backgroundColor($r('app.color.background'))
     .height('100%')
   }
+
 }

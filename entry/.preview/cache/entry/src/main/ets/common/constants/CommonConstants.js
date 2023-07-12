@@ -13,6 +13,22 @@
  * limitations under the License.
  */
 import relationalStore from '@ohos:data.relationalStore';
+/**
+ * Transition animation duration.
+ */
+export const TRANSITION_ANIMATION_DURATION = 600;
+/**
+ * Custom transition opacity.
+ */
+export const CUSTOM_TRANSITION_OPACITY = 0.2;
+/**
+ * Custom transition scale.
+ */
+export const CUSTOM_TRANSITION_SCALE = { x: 0, y: 0 };
+/**
+ * Custom transition translate.
+ */
+export const CUSTOM_TRANSITION_TRANSLATE = { x: 500, y: 500 };
 export const SECOND_PAGE = 'pages/SimpleVideoPlay';
 /**
  * route param

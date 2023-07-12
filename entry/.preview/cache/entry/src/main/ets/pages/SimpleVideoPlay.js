@@ -19,8 +19,8 @@ class Play extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1) {
         super(parent, __localStorage, elmtId);
         this.source = router.getParams()['source'];
-        this.startIconResource = { "id": 16777543, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
-        this.backIconResource = { "id": 16777566, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
+        this.startIconResource = { "id": 16777549, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
+        this.backIconResource = { "id": 16777572, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
         this.__isPlay = new ObservedPropertySimplePU(false, this, "isPlay");
         this.addProvidedVar("isPlay", this.__isPlay);
         this.__isOpacity = new ObservedPropertySimplePU(false, this, "isOpacity");

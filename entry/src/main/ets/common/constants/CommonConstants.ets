@@ -15,6 +15,25 @@
 
 import relationalStore from '@ohos.data.relationalStore';
 
+/**
+ * Transition animation duration.
+ */
+export const TRANSITION_ANIMATION_DURATION: number = 600;
+
+/**
+ * Custom transition opacity.
+ */
+export const CUSTOM_TRANSITION_OPACITY = 0.2;
+
+/**
+ * Custom transition scale.
+ */
+export const CUSTOM_TRANSITION_SCALE = { x: 0, y: 0 };
+
+/**
+ * Custom transition translate.
+ */
+export const CUSTOM_TRANSITION_TRANSLATE = { x: 500, y: 500 };
 
 export const SECOND_PAGE: string = 'pages/SimpleVideoPlay';
 
@@ -150,10 +169,11 @@ export const STACK_STYLE = {
  * Common constants for all features.
  */
 export default class CommonConstants {
+
+
   /**
    * Break point sm of the tag.
    */
-
 
   static readonly SM: string = 'sm';
 

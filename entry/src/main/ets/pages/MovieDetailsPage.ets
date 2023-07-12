@@ -25,6 +25,12 @@ import MovieDetailsTitle from '../view/MovieDetailsTitle';
 import Logger from '../common/utils/Logger';
 import { SwiperVideo } from '../view/IndexSwiper';
 import {  MARGIN_FONT_SIZE } from '../common/constants/CommonConstants';
+import {
+  TRANSITION_ANIMATION_DURATION,
+  CUSTOM_TRANSITION_OPACITY,
+  CUSTOM_TRANSITION_SCALE,
+  CUSTOM_TRANSITION_TRANSLATE
+} from '../common/constants/CommonConstants';
 
 @Entry
 @Component
@@ -84,5 +90,11 @@ struct MovieDetailPage {
     .scrollBarWidth(6)
 
   }
-
+  pageTransition() {
+    PageTransitionEnter({ duration: TRANSITION_ANIMATION_DURATION, curve: Curve.Smooth })
+      .opacity(CUSTOM_TRANSITION_OPACITY)
+      .scale(CUSTOM_TRANSITION_SCALE)
+    PageTransitionExit({ duration: TRANSITION_ANIMATION_DURATION, curve: Curve.Smooth })
+      .translate(CUSTOM_TRANSITION_TRANSLATE)
+  }
 }

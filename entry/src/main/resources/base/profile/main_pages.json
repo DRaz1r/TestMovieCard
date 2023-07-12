@@ -1,6 +1,5 @@
 {
   "src": [
-    "pages/MovieListPage",
     "pages/MovieDetailsPage",
     "pages/RegisterPage",
     "pages/LoginPage",

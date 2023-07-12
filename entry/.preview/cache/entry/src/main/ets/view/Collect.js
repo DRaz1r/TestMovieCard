@@ -49,7 +49,7 @@ export class Collect extends ViewPU {
             Column.create();
             Column.debugLine("view/Collect.ets(15:5)");
             Column.margin({ top: '15vp' });
-            Column.backgroundColor({ "id": 16777365, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+            Column.backgroundColor({ "id": 16777366, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Column.width('28vp');
             Column.height('28vp');
             Column.onClick(() => {
@@ -66,12 +66,12 @@ export class Collect extends ViewPU {
             If.create();
             if (this.isComplete) {
                 this.ifElseBranchUpdateFunction(0, () => {
-                    this.labelIcon.bind(this)({ "id": 16777542, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+                    this.labelIcon.bind(this)({ "id": 16777548, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
                 });
             }
             else {
                 this.ifElseBranchUpdateFunction(1, () => {
-                    this.labelIcon.bind(this)({ "id": 16777554, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
+                    this.labelIcon.bind(this)({ "id": 16777560, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
                 });
             }
             if (!isInitialRender) {

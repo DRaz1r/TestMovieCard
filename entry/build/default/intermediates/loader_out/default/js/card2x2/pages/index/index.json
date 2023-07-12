@@ -1,0 +1,225 @@
+{
+  "template": {
+    "attr": {},
+    "type": "div",
+    "classList": [
+      "card-root-layout"
+    ],
+    "children": [
+      {
+        "attr": {},
+        "type": "div",
+        "classList": [
+          "card-background-layout"
+        ]
+      },
+      {
+        "attr": {},
+        "type": "div",
+        "classList": [
+          "card-layout"
+        ],
+        "children": [
+          {
+            "attr": {},
+            "type": "div",
+            "classList": [
+              "card-top-layout"
+            ],
+            "events": {
+              "click": "topClickEvent"
+            },
+            "children": [
+              {
+                "attr": {
+                  "src": "{{topMovieImage}}"
+                },
+                "type": "image",
+                "classList": [
+                  "card-image"
+                ]
+              },
+              {
+                "attr": {},
+                "type": "div",
+                "classList": [
+                  "card-text-layout"
+                ],
+                "children": [
+                  {
+                    "attr": {
+                      "value": "{{topTitle}}"
+                    },
+                    "type": "text",
+                    "classList": [
+                      "card-text-title"
+                    ]
+                  },
+                  {
+                    "attr": {
+                      "value": "{{topDescribe}}"
+                    },
+                    "type": "text",
+                    "classList": [
+                      "card-text-content"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "attr": {},
+            "type": "div",
+            "classList": [
+              "card-bottom-layout"
+            ],
+            "events": {
+              "click": "bottomClickEvent"
+            },
+            "children": [
+              {
+                "attr": {
+                  "src": "{{bottomMovieImage}}"
+                },
+                "type": "image",
+                "classList": [
+                  "card-image"
+                ]
+              },
+              {
+                "attr": {},
+                "type": "div",
+                "classList": [
+                  "card-text-layout"
+                ],
+                "children": [
+                  {
+                    "attr": {
+                      "value": "{{bottomTitle}}"
+                    },
+                    "type": "text",
+                    "classList": [
+                      "card-text-title"
+                    ]
+                  },
+                  {
+                    "attr": {
+                      "value": "{{bottomDescribe}}"
+                    },
+                    "type": "text",
+                    "classList": [
+                      "card-text-content"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    ".card-root-layout": {
+      "width": "100%",
+      "height": "100%",
+      "justifyContent": "center",
+      "alignContent": "center",
+      "alignItems": "center",
+      "position": "relative"
+    },
+    ".card-background-layout": {
+      "width": "100%",
+      "height": "100%",
+      "backgroundColor": "#182431",
+      "position": "absolute",
+      "opacity": 0.6
+    },
+    ".card-layout": {
+      "width": "100%",
+      "height": "100%",
+      "paddingTop": "12px",
+      "paddingRight": "12px",
+      "paddingBottom": "12px",
+      "paddingLeft": "12px",
+      "position": "absolute",
+      "justifyContent": "center",
+      "alignContent": "center",
+      "flexDirection": "column"
+    },
+    ".card-top-layout": {
+      "width": "100%",
+      "height": "57px",
+      "flexDirection": "row"
+    },
+    ".card-bottom-layout": {
+      "width": "100%",
+      "height": "57px",
+      "marginTop": "12px",
+      "flexDirection": "row"
+    },
+    ".card-image": {
+      "width": "44px",
+      "height": "57px",
+      "borderBottomLeftRadius": "10px",
+      "borderBottomRightRadius": "10px",
+      "borderTopLeftRadius": "10px",
+      "borderTopRightRadius": "10px"
+    },
+    ".card-text-layout": {
+      "width": "76px",
+      "height": "100%",
+      "marginLeft": "6px",
+      "justifyContent": "center",
+      "alignContent": "center",
+      "flexDirection": "column"
+    },
+    ".card-text-title": {
+      "fontSize": "14px",
+      "color": "#FFFFFF",
+      "maxLines": "1",
+      "textOverflow": "ellipsis",
+      "textAlign": "left",
+      "lineHeight": "19px",
+      "fontWeight": "500"
+    },
+    ".card-text-content": {
+      "opacity": 0.6,
+      "fontSize": "12px",
+      "maxLines": "2",
+      "textOverflow": "ellipsis",
+      "color": "#FFFFFF",
+      "textAlign": "left",
+      "lineHeight": "16px",
+      "fontWeight": "400"
+    }
+  },
+  "data": {
+    "topIndex": 0,
+    "topMovieImage": "/common/ic_movie_one.png",
+    "topTitle": "冰上姐妹",
+    "topDescribe": "讲述冰上女运动员之间团结友爱、互帮互助的故事",
+    "bottomIndex": 1,
+    "bottomMovieImage": "/common/ic_movie_two.png",
+    "bottomTitle": "冲破黎明前的黑暗",
+    "bottomDescribe": "通过地道战的方式与日寇作斗争的故事"
+  },
+  "actions": {
+    "topClickEvent": {
+      "action": "router",
+      "abilityName": "EntryDetailsAbility",
+      "params": {
+        "index": "{{topIndex}}"
+      }
+    },
+    "bottomClickEvent": {
+      "action": "router",
+      "abilityName": "EntryDetailsAbility",
+      "params": {
+        "index": "{{bottomIndex}}"
+      }
+    }
+  },
+  "apiVersion": {}
+}

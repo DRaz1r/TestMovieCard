@@ -21,7 +21,7 @@ export class VideoPlayer extends ViewPU {
         super(parent, __localStorage, elmtId);
         this.source = undefined;
         this.controller = undefined;
-        this.previewUris = { "id": 16777569, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
+        this.previewUris = { "id": 16777575, "type": 20000, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" };
         this.__currentTime = new ObservedPropertySimplePU(0, this, "currentTime");
         this.addProvidedVar("currentTime", this.__currentTime);
         this.__durationTime = new ObservedPropertySimplePU(0, this, "durationTime");
