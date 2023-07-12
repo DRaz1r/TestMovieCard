@@ -226,7 +226,7 @@
     },
     {
       "name": "setting_account_email",
-      "value": "2000000@shenhua.cc"
+      "value": "114514@gmail.com"
     },
     {
       "name": "setting_list_about",
@@ -251,6 +251,22 @@
     {
       "name": "setting_list_news",
       "value": "Push Notifications"
+    },
+    {
+      "name": "please_input_account",
+      "value": "Please input the account"
+    },
+    {
+      "name": "please_input_password",
+      "value": "Please input the password"
+    },
+    {
+      "name": "setting_list_data",
+      "value": "Data Management"
+    },
+    {
+      "name": "setting_list_menu",
+      "value": "Menu Settings"
     }
   ]
 }

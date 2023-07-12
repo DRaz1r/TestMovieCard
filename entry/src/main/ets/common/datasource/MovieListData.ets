@@ -52,6 +52,7 @@ export const MOVIE_LIST_DATA = [
     'stars': [$r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_half_star')],
     'rating': '9.5',
     'introduction': '剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介。简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介。简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介。简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情简介剧情。'
+ 'weburl': ""
   },
   {
     'sort': 3,
