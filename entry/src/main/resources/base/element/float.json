@@ -607,6 +607,26 @@
     {
       "name": "setting_settingCell_right",
       "value": "22vp"
+    },
+    {
+      "name": "font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "introduction_image_width",
+      "value": "44vp"
+    },
+    {
+      "name": "introduction_image_height",
+      "value": "57vp"
+    },
+    {
+      "name": "agency_row_padding",
+      "value": "10vp"
+    },
+    {
+      "name": "card_padding",
+      "value": "4vp"
     }
   ]
 }

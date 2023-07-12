@@ -52,7 +52,11 @@ export default class EntryFormAbility extends FormExtensionAbility {
     });
     let listData: MovieDataBean[] = CommonUtils.getListData();
     let formData = CommonUtils.getFormData(listData);
-    return formBindingData.createFormBindingData(formData);
+    let tem =formBindingData.createFormBindingData(formData);
+    formProvider.updateForm(formId, tem).catch((err) => {
+      Logger.error('error', `processDayData updateForm, err: ${JSON.stringify(err)}`);
+    });
+    return tem;
   }
 
   onUpdateForm(formId: string) {

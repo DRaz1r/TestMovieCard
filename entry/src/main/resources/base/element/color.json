@@ -103,6 +103,10 @@
     {
       "name": "setting_button_fontColor",
       "value": "#FA2A2D"
+    },
+    {
+      "name": "card_background",
+      "value": "#CCCCCC"
     }
   ]
 }
