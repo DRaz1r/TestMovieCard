@@ -29,6 +29,7 @@ export default struct MovieDetailsTitle {
   private rating: string;
   private stars: Resource[];
   private describe: string;
+  private weburl: string;
 
   aboutToAppear() {
     if (CommonUtils.isEmpty(this.movieDetail)) {
@@ -40,6 +41,7 @@ export default struct MovieDetailsTitle {
     this.rating = this.movieDetail.rating;
     this.stars = this.movieDetail.stars;
     this.describe = this.movieDetail.describe;
+    this.weburl = this.movieDetail.weburl;
   }
 
   build() {
@@ -95,7 +97,7 @@ export default struct MovieDetailsTitle {
               router.pushUrl({
                 url: 'pages/WebShopPage',
                 params: {
-                  weburl: 'https://developer.harmonyos.com/'
+                  weburl: this.weburl
                 }
               })
                 .then(() => {

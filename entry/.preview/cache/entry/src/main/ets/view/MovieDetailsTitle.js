@@ -27,6 +27,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.rating = undefined;
         this.stars = undefined;
         this.describe = undefined;
+        this.weburl = undefined;
         this.setInitiallyProvidedValue(params);
     }
     setInitiallyProvidedValue(params) {
@@ -48,6 +49,9 @@ export default class MovieDetailsTitle extends ViewPU {
         if (params.describe !== undefined) {
             this.describe = params.describe;
         }
+        if (params.weburl !== undefined) {
+            this.weburl = params.weburl;
+        }
     }
     updateStateVars(params) {
     }
@@ -67,12 +71,13 @@ export default class MovieDetailsTitle extends ViewPU {
         this.rating = this.movieDetail.rating;
         this.stars = this.movieDetail.stars;
         this.describe = this.movieDetail.describe;
+        this.weburl = this.movieDetail.weburl;
     }
     initialRender() {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Row.create();
-            Row.debugLine("view/MovieDetailsTitle.ets(46:5)");
+            Row.debugLine("view/MovieDetailsTitle.ets(48:5)");
             Row.alignSelf(ItemAlign.Start);
             if (!isInitialRender) {
                 Row.pop();
@@ -82,7 +87,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Image.create(this.movieImage);
-            Image.debugLine("view/MovieDetailsTitle.ets(47:7)");
+            Image.debugLine("view/MovieDetailsTitle.ets(49:7)");
             Image.objectFit(ImageFit.Cover);
             Image.borderRadius({ "id": 16777518, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Image.margin({ left: StyleConstants.COMMON_MARGIN_LEFT });
@@ -96,7 +101,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
-            Column.debugLine("view/MovieDetailsTitle.ets(53:7)");
+            Column.debugLine("view/MovieDetailsTitle.ets(55:7)");
             Column.layoutWeight(StyleConstants.WEIGHT_ONE);
             Column.margin({ left: { "id": 16777468, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" } });
             if (!isInitialRender) {
@@ -107,7 +112,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.title);
-            Text.debugLine("view/MovieDetailsTitle.ets(54:9)");
+            Text.debugLine("view/MovieDetailsTitle.ets(56:9)");
             Text.fontSize({ "id": 16777520, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Bolder);
             Text.fontColor({ "id": 16777346, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
@@ -136,7 +141,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.describe);
-            Text.debugLine("view/MovieDetailsTitle.ets(63:9)");
+            Text.debugLine("view/MovieDetailsTitle.ets(65:9)");
             Text.fontSize({ "id": 16777384, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.fontColor({ "id": 16777346, "type": 10001, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Normal);
@@ -152,7 +157,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Row.create();
-            Row.debugLine("view/MovieDetailsTitle.ets(71:9)");
+            Row.debugLine("view/MovieDetailsTitle.ets(73:9)");
             Row.width('100%');
             if (!isInitialRender) {
                 Row.pop();
@@ -162,7 +167,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create({ "id": 16777296, "type": 10003, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
-            Text.debugLine("view/MovieDetailsTitle.ets(72:11)");
+            Text.debugLine("view/MovieDetailsTitle.ets(74:11)");
             Text.fontWeight(FontWeight.Bolder);
             Text.fontSize({ "id": 16777471, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.textAlign(TextAlign.Center);
@@ -182,7 +187,7 @@ export default class MovieDetailsTitle extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(('购票'));
-            Text.debugLine("view/MovieDetailsTitle.ets(83:11)");
+            Text.debugLine("view/MovieDetailsTitle.ets(85:11)");
             Text.fontWeight(FontWeight.Bolder);
             Text.fontSize({ "id": 16777471, "type": 10002, params: [], "bundleName": "com.huawei.moviecard", "moduleName": "entry" });
             Text.textAlign(TextAlign.Center);
@@ -197,7 +202,7 @@ export default class MovieDetailsTitle extends ViewPU {
                 router.pushUrl({
                     url: 'pages/WebShopPage',
                     params: {
-                        weburl: 'https://developer.harmonyos.com/'
+                        weburl: this.weburl
                     }
                 })
                     .then(() => {

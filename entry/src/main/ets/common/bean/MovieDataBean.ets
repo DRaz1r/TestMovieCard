@@ -66,4 +66,8 @@ export default class MovieDataBean {
    * Movie introduction
    */
   introduction: string;
+  /**
+   * Movie web url
+   */
+  weburl: string;
 }

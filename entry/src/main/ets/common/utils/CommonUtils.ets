@@ -151,6 +151,7 @@ export class CommonUtils {
           stars: itemMovie.stars,
           rating: itemMovie.rating,
           introduction: itemMovie.introduction,
+          weburl: itemMovie.weburl
         };
         listMovieData.push(movieItem);
       });

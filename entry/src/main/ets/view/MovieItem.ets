@@ -12,7 +12,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 import router from '@ohos.router';
 import Logger from '../common/utils/Logger';
 import CommonConstants from '../common/constants/CommonConstants';
@@ -20,6 +19,8 @@ import StyleConstants from '../common/constants/StyleConstants';
 import MovieDataBean from '../common/bean/MovieDataBean';
 import StarsWidget from './StarsWidget';
 import CommonUtils from '../common/utils/CommonUtils';
+import { Collect } from './Collect';
+
 @Preview
 @Component
 export default struct MovieItem {
@@ -86,27 +87,25 @@ export default struct MovieItem {
         left: $r('app.float.contents_layout_left'),
         right: $r('app.float.contents_layout_right')
       })
-
-      Text($r('app.string.want_to_see'))
-        .fontWeight(FontWeight.Bolder)
-        .fontSize($r("app.float.see_button_size"))
-        .textAlign(TextAlign.Center)
-        .fontColor(Color.White)
-        .borderRadius($r("app.float.see_button_radius"))
-        .backgroundColor($r("app.color.see_button_background"))
-        .margin({ right: $r('app.float.see_button_right') })
-        .width($r("app.float.see_button_width"))
-        .height($r("app.float.see_button_height"))
-        .onClick(() => {
-          router.pushUrl({
-            url: CommonConstants.SEE_BUTTON_PUSH,
-            params: {
-              index: this.sort
-            }
-          }).catch((error) => {
-            Logger.error(CommonConstants.TAG_MOVIE_ITEM, 'push error ' + JSON.stringify(error));
-          });
-        })
+      Column() {
+        Image($r ('app.media.right_grey'))
+          .borderRadius($r("app.float.see_button_radius"))
+          .margin({ right: $r('app.float.see_button_right') })
+          .width('45vp')
+          .height('20vp')
+          .onClick(() => {
+            router.pushUrl({
+              url: CommonConstants.SEE_BUTTON_PUSH,
+              params: {
+                index: this.sort
+              }
+            }).catch((error) => {
+              Logger.error(CommonConstants.TAG_MOVIE_ITEM, 'push error ' + JSON.stringify(error));
+            });
+          })
+        // 按钮-收藏
+        Collect()
+      }
     }
     .borderRadius($r('app.float.item_radius'))
     .backgroundColor(Color.White)
