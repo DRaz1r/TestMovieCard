@@ -136,7 +136,7 @@ export default struct MovieItem {
 
         }
         .margin({ top: '15vp' })
-        .backgroundColor($r('app.color.start_window_background'))
+        .backgroundColor(Color.White)
         .width('28vp')
         .height('28vp')
         //点击操作
