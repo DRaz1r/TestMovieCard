@@ -26,7 +26,7 @@ export const MOVIE_LIST_DATA = [
     'stars': [$r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star')],
     'rating': '9.5',
     'introduction': '在“茶啊二中”，有最懂“我们”的中国式青春！当“学渣”王强与“暴力班主任”石妙娜意外灵魂互换，会是怎样“翻身解气”的体验？暑假解压包式强喜剧，一起回到笑得最大声的日子！',
-    'weburl':'https://www.maoyan.com/films/1431907'
+    'weburl':'https://dianying.taobao.com/showDetail.htm?spm=a1z21.3046609.w2.8.3dc2112aDGH38Q&showId=1428545&n_s=new&source=current'
   },
   {
     'sort': 2,
@@ -39,7 +39,7 @@ export const MOVIE_LIST_DATA = [
     'stars': [$r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star')],
     'rating': '9.5',
     'introduction': '影帝影后绝赞演技，年度爱情片神作，带你领悟爱情真谛。你是否想过自己会如何老去？四个花甲老人，两段迟暮之恋，他们的爱善良而纯粹、浪漫又浓烈。在生命这段有限的旅程里，趁还来得及，我要对你说声“我爱你！”。',
-    'weburl':'https://www.maoyan.com/films/1470379'
+    'weburl':'https://dianying.taobao.com/showDetail.htm?spm=a1z21.6646273.w2.17.66791d4ajbgaU3&showId=1432401&n_s=new&source=current'
   },
   {
     'sort': 3,
@@ -52,7 +52,7 @@ export const MOVIE_LIST_DATA = [
     'stars': [$r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star')],
     'rating': '9.4',
     'introduction': '安史之乱爆发后数年，吐蕃大军攻打西南。大唐节度使高适交战不利，长安岌岌可危。困守孤城的高适向监军太监回忆起自己与李白的一生往事。',
-    'weburl':'https://www.maoyan.com/films/1475137'
+    'weburl':'https://dianying.taobao.com/showDetail.htm?spm=a1z21.3046609.w2.10.7930112ax4i2fh&showId=1437083&n_s=new&source=current'
   },
   {
     'sort': 4,
@@ -65,7 +65,7 @@ export const MOVIE_LIST_DATA = [
     'stars': [$r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_half_star')],
     'rating': '9.2',
     'introduction': '金牌监制陈思诚继《误杀》系列后又一悬疑力作，朱一龙、倪妮、文咏珊、杜江俊男美女狂飙演技，剧情过山车反转停不下来！何非（朱一龙 饰）的妻子李木子（文咏珊 饰）在结婚周年旅行中离奇消失，在何非苦寻无果之时妻子再次现身，何非却坚持眼前的陌生女人并非妻子，妻子拿出了身份证明进行自证，夫妻二人似乎都有不可告人的秘密，随着金牌律师陈麦（倪妮 饰）介入到这起离奇案件中，更多的谜团慢慢浮现……究竟谁在说谎？端午佳节一起沉浸解谜。',
-    'weburl':'https://www.maoyan.com/films/1452790'
+    'weburl':'https://dianying.taobao.com/showDetail.htm?spm=a1z21.3046609.w2.6.6523112az2lvNR&showId=1413710&n_s=new&source=current'
   },
   {
     'sort': 5,
@@ -78,7 +78,7 @@ export const MOVIE_LIST_DATA = [
     'stars': [$r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_half_star')],
     'rating': '9.2',
     'introduction': '奥斯卡最佳动画长片续作《蜘蛛侠：纵横宇宙》呈现了脑洞大开、潮流酷炫的视听风格。影片讲述了新生代蜘蛛侠迈尔斯携手蜘蛛格温，穿越多元宇宙踏上更宏大的冒险征程的故事。面临每个蜘蛛侠都会失去至亲的宿命，迈尔斯誓言打破命运魔咒，找到属于自己的英雄之路。而这个决定和蜘蛛侠2099所领军的蜘蛛联盟产生了极大冲突，一场以一敌百的蜘蛛侠大战即将拉响！',
-    'weburl':'https://www.maoyan.com/films/1298450'
+    'weburl':'https://dianying.taobao.com/showDetail.htm?spm=a1z21.6646273.w2.33.513a1d4anUKXTA&showId=1326961&n_s=new&source=current'
   },
   {
     'sort': 6,
@@ -91,7 +91,7 @@ export const MOVIE_LIST_DATA = [
     'stars': [$r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_half_star')],
     'rating': '9.2',
     'introduction': '影片以一段挑战极限的爱情故事带观众走进元素城居民的生活。在四大元素风、火、水、土共同生活又泾渭分明的世界里，来自水元素的男生渡阿波（Wade）和来自火元素的女孩炉小焰（Ember）巧遇邂逅并暗生情愫，但面对“水火不相容”的客观事实和各大元素之间泾渭分明的悠久传统，两位主角将如何跨越隔阂，深入彼此的内心？一连串妙趣横生又感人肺腑的故事由此展开。',
-    'weburl':'https://www.maoyan.com/films/1469637'
+    'weburl':'https://dianying.taobao.com/showDetail.htm?spm=a1z21.6646273.w2.33.513a1d4anUKXTA&showId=1326961&n_s=new&source=current'
   },
   {
     'sort': 7,
@@ -104,7 +104,7 @@ export const MOVIE_LIST_DATA = [
     'stars': [$r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_half_star')],
     'rating': '9.1',
     'introduction': '2023年顶级大银幕视觉盛宴来袭！时隔5年，变形金刚震撼归来！故事重返上世纪90年代，终极反派宇宙大帝从天而降，驱使以天灾为首的恐惧兽掀起地球危机。绝境之中，蛰伏许久的巨无霸终觉醒，联合汽车人变形出发！一场前所未有的史诗决战即将上演！',
-    'weburl':'https://www.maoyan.com/films/1433776'
+    'weburl':'https://dianying.taobao.com/showDetail.htm?spm=a1z21.6646273.w2.23.42e71d4aw8QocI&showId=316779&n_s=new&source=current'
   },
   {
     'sort': 8,
@@ -117,7 +117,7 @@ export const MOVIE_LIST_DATA = [
     'stars': [$r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_half_star')],
     'rating': '9.0',
     'introduction': '邱礼涛继《扫毒2》《拆弹专家2》后携《扫毒3：人在天涯》强势回归，古天乐郭富城刘青云三大影帝首次同台飙戏荡平金三角！毒枭康素差（刘青云 饰）和手下张建行（郭富城 饰）、欧志远（古天乐 饰）因一次意外有了过命交情，三人情同手足。康素差被香港警方通缉后带领团队逃到金三角发展，却意外发现身边藏有卧底。曾经的生死兄弟如今分崩离析，敌友难辨，何去何从……',
-    'weburl':'https://www.maoyan.com/films/1324999'
+    'weburl':'https://dianying.taobao.com/showDetail.htm?spm=a1z21.6646273.w2.13.42a21d4awkVEBm&showId=1380612&n_s=new&source=current'
   },
   {
     'sort': 9,
@@ -130,7 +130,7 @@ export const MOVIE_LIST_DATA = [
     'stars': [$r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_star'), $r('app.media.ic_half_star')],
     'rating': '8.8',
     'introduction': '当家人们陷入危机，唐老大（范·迪塞尔 饰）为救飞车家族再度出山。终途启程，这场前所未有的疾速狂飙，你准备好了吗？',
-    'weburl':'https://www.maoyan.com/films/343035'
+    'weburl':'https://dianying.taobao.com/showDetail.htm?spm=a1z21.6646273.w2.37.3fe91d4aarO7Q6&showId=362162&n_s=new&source=current'
   }
 ];
 
@@ -138,12 +138,12 @@ export const MOVIE_LIST_DATA = [
  * Starring data
  */
 export const STARRING_DATA: Resource[] = [
-  $r("app.media.ic_movie_one"),
-  $r("app.media.ic_movie_two"),
-  $r("app.media.ic_movie_three"),
-  $r("app.media.ic_movie_four"),
-  $r("app.media.ic_movie_five"),
-  $r("app.media.ic_movie_six")
+$r("app.media.ic_movie_one"),
+$r("app.media.ic_movie_two"),
+$r("app.media.ic_movie_three"),
+$r("app.media.ic_movie_four"),
+$r("app.media.ic_movie_five"),
+$r("app.media.ic_movie_six")
 ];
 
 
@@ -151,8 +151,8 @@ export const STARRING_DATA: Resource[] = [
  * Stills data
  */
 export const STILLS_DATA: Resource[] = [
-  $r("app.media.ic_movie_one"),
-  $r("app.media.ic_movie_seven"),
-  $r("app.media.ic_movie_eight"),
-  $r("app.media.ic_movie_three")
+$r("app.media.ic_movie_one"),
+$r("app.media.ic_movie_seven"),
+$r("app.media.ic_movie_eight"),
+$r("app.media.ic_movie_three")
 ];

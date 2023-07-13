@@ -2,7 +2,7 @@
 	"BuildOptions":{
 		"BUNDLE_NAME":"com.huawei.moviecard",
 		"BUILD_PATH":{
-			"OUTPUT_PATH":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\build\\outputs\\default"
+			"OUTPUT_PATH":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\TestMovieCard\\build\\outputs\\default"
 		},
 		"SELECT_BUILD_PRODUCT":"default"
 	},
