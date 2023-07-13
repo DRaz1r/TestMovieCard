@@ -66,24 +66,9 @@ struct AdvertisingPage {
           this.jumpToAppHomePage();
         })
 
-      Row() {
-        Image($r('app.media.ic_logo'))
-          .width('54vp')
-          .height('54vp')
-
-      }
-      .alignItems(VerticalAlign.Bottom)
-      .height(CommonConstants.FULL_HEIGHT)
     }
     .width(CommonConstants.FULL_WIDTH)
     .height(CommonConstants.FULL_HEIGHT)
   }
 }
-// Bottom text common style.
-@Extend(Text) function bottomTextStyle (fontWeight: number,
-                                        textAttribute: number, fontSize: Resource, fontColor: Resource) {
-  .fontWeight(fontWeight)
-  .letterSpacing(textAttribute)
-  .fontSize(fontSize)
-  .fontColor(fontColor)
-}
+

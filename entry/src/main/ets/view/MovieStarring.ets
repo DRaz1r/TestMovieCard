@@ -16,7 +16,7 @@
 import CommonUtils from '../common/utils/CommonUtils';
 import StyleConstants from '../common/constants/StyleConstants';
 import DataSource from '../common/datasource/DataSource';
-
+@Preview
 @Component
 export default struct MovieStarring {
   private dataSource: DataSource<Resource>;

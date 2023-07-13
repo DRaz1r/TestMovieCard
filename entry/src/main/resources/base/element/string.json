@@ -352,6 +352,14 @@
     {
       "name": "healthy_life_introduce",
       "value": "There's always a new way to play health."
+    },
+    {
+      "name": "film_launcher_title",
+      "value": "AiQiXiaoYi"
+    },
+    {
+      "name": "film_launcher_content",
+      "value": "Watch what you want"
     }
   ]
 }

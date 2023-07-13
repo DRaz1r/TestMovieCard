@@ -319,6 +319,14 @@
     {
       "name": "advertising_text_title",
       "value": "Skip %ds"
+    },
+    {
+      "name": "film_launcher_title",
+      "value": "AiQiXiaoYi"
+    },
+    {
+      "name": "film_launcher_content",
+      "value": "Watch what you want"
     }
   ]
 }

@@ -108,21 +108,21 @@ struct LauncherPage {
         .width(CommonConstants.FULL_WIDTH)
         .height(CommonConstants.FULL_HEIGHT)
       Column() {
-        Image($r('app.media.ic_logo'))
+        Image($r('app.media.ic_applogo'))
           .width($r('app.float.launcher_logo_size'))
           .height($r('app.float.launcher_logo_size'))
           .margin({ top: CommonConstants.LAUNCHER_IMAGE_MARGIN_TOP })
-        Text($r('app.string.healthy_life_text'))
+        Text($r('app.string.film_launcher_title'))
           .width($r('app.float.launcher_life_text_width'))
           .height($r('app.float.launcher_life_text_height'))
-          .healthyLifeTextStyle(FontWeight.Bold,
+          .FilmTextStyle(FontWeight.Bold,
             CommonConstants.LAUNCHER_LIFE_TEXT_SPACING,
             $r('app.float.launcher_text_title_size'),
             $r('app.color.launcher_text_title_color'))
           .margin({ top: CommonConstants.LAUNCHER_TEXT_TITLE_MARGIN_TOP })
-        Text($r('app.string.healthy_life_introduce'))
+        Text($r('app.string.film_launcher_content'))
           .height(CommonConstants.LAUNCHER_TEXT_INTRODUCE_HEIGHT)
-          .healthyLifeTextStyle(FontWeight.Normal,
+          .FilmTextStyle(FontWeight.Normal,
             CommonConstants.LAUNCHER_TEXT_INTRODUCE_SPACING,
             $r('app.float.launcher_text_introduce_size'),
             $r('app.color.launcher_text_introduce_color'))
@@ -135,7 +135,7 @@ struct LauncherPage {
   }
 }
 // Healthy living text common styles.
-@Extend(Text) function healthyLifeTextStyle(fontWeight: number, textAttribute: number, fontSize: Resource, fontColor: Resource) {
+@Extend(Text) function FilmTextStyle(fontWeight: number, textAttribute: number, fontSize: Resource, fontColor: Resource) {
   .fontWeight(fontWeight)
   .letterSpacing(textAttribute)
   .fontSize(fontSize)
