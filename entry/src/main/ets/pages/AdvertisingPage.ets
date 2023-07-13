@@ -9,9 +9,7 @@ import CommonConstants from '../common/constants/CommonConstants';
 @Component
 struct AdvertisingPage {
   @State countDownSeconds: number = CommonConstants.ADVERTISING_COUNT_DOWN_SECONDS;
-  private timeId: number;
-
-  onPageShow() {
+  private timeId: number;  onPageShow() {
     this.timeId = setInterval(() => {
       if (this.countDownSeconds == 0) {
         this.jumpToAppHomePage();

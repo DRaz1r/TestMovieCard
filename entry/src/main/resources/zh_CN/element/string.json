@@ -130,11 +130,11 @@
     },
     {
       "name": "login_page",
-      "value": "登陆页面"
+      "value": "登录页面"
     },
     {
       "name": "login_more",
-      "value": "登陆账号以使用更多功能"
+      "value": "登录账号以使用更多功能"
     },
     {
       "name": "account",
@@ -146,7 +146,7 @@
     },
     {
       "name": "login",
-      "value": "登陆"
+      "value": "登录"
     },
     {
       "name": "register_account",
@@ -158,11 +158,11 @@
     },
     {
       "name": "message_login",
-      "value": "手机登陆"
+      "value": "手机登录"
     },
     {
       "name": "other_login_method",
-      "value": "其他登陆方式"
+      "value": "其他登录方式"
     },
     {
       "name": "mainPage_tabTitles_home",
@@ -198,7 +198,7 @@
     },
     {
       "name": "login_success",
-      "value": "登陆成功"
+      "value": "登录成功"
     },
     {
       "name": "my_love",
@@ -262,7 +262,7 @@
     },
     {
       "name": "setting_button",
-      "value": "退出登陆"
+      "value": "退出登录"
     },
     {
       "name": "dialog_text_title",
