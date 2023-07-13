@@ -1,0 +1,66 @@
+├──entry/src/main/ets                 // 代码区
+│  ├──common
+│  │  ├──bean
+│  │  │  ├──FormBean.ets              // 卡片信息接口
+│  │  │  ├──ItemData.ets              // 设置信息接口
+│  │  │  └──MovieDataBean.ets         // 电影信息接口
+│  │  ├──constants
+│  │  │  ├──CommonConstants.ets       // 公共常量
+│  │  │  └──StyleConstants.ets        // 公共常量
+│  │  ├──datasource
+│  │  │  ├──DataSource.ets
+│  │  │  └──MovieListData.ets         //电影信息
+│  │  └──utils
+│  │     ├──CommonUtils.ets           // 数据操作工具类
+│  │     ├──PreferencesUtil.ets       // 首选项操作工具类
+│  │     └──Logger.ets                // 日志打印工具类
+│  ├──detailsability
+│  │  └──EntryDetailsAbility.ets      // ？？？
+│  ├──entryshopability
+│  │  └──EntryShopAbility.ets         // ？？？
+│  ├──entryvideoability
+│  │  └──Entryvideoability.ets        // ？？？
+│  ├──entryability
+│  │  └──EntryAbility.ets             // 程序入口类
+│  ├──entryformability
+│  │  └──EntryFormAbility.ets         // 卡片创建，更新，删除操作类
+│  ├──introduction                    // 2x2 ArkTS电影介绍目录
+│  │  └──pages
+│  │     └──IntroductionCard.ets      // 2x2 ArkTS电影介绍卡片
+│  ├──webshop                         // 2x2 ArkTS电影购票目录
+│  │  └──pages
+│  │     └──WebShopCard.ets           // 2x2 ArkTS电影购票卡片
+│  ├──tovideocard                     // 2x2 ArkTS电影视频目录
+│  │  └──pages
+│  │     └──WebShopCard.ets           // 2x2 ArkTS电影视频卡片
+│  ├──model                           // model
+│  │  └──VideoControll.ets            // 视频播放控制model
+│  ├──pages
+│  │  ├──AdvertisingPage.ets          // 广告页
+│  │  ├──MainPage.ets                 // 应用主页面
+│  │  ├──MinePage.ets                 // 我的页面
+│  │  ├──LauncherPage.ets             // 启动页
+│  │  ├──LoginMessagePage.ets         // 手机登陆页面
+│  │  ├──MovieDetailsPage.ets         // 电影详细信息页面
+│  │  ├──MovieListPage.ets            // 电影列表页面
+│  │  ├──RegisterPage.ets             // 注册页面
+│  │  ├──SimpleVideoPlay.ets          // 视频播放页面
+│  │  ├──WebShopCardPage.ets          // web卡片页面跳转
+│  │  ├──WebShopPage.ets              // webAPP页面跳转
+│  │  └──TaskListPage.ets             // 任务列表页面
+│  ├──view
+│  │  ├──CustomDialogComponent.ets    // 弹窗组件
+│  │  ├──IndexModule.ets              // 电影预览片组件
+│  │  ├──IndexSwiper.ets              // 电影轮播图组件
+│  │  ├──MovieDetailsTitle.ets        // 电影主要信息组件
+│  │  ├──MovieItem.ets                // 电影选项组件
+│  │  ├──MovieStarring.ets            // 电影评分组件
+│  │  ├──MovieStills.ets              // 电影剧照组件
+│  │  ├──StarsWidget.ets              // 评分星星显示组件
+│  │  ├──StoryIntroduce.ets           // 电影展开收回介绍组件
+│  │  ├──VideoPlayer.ets              // 视频播放组件
+│  │  └──VideoPlaySlider.ets          // 视频滑动组件
+│  └──viewmodel                       // viewmodel
+│     ├──MainViewModel.ets            // 首页相关模块
+│     └──VideoData.ets                // 视频相关模块
+└──entry/src/main/resources           // 资源文件目录

@@ -228,7 +228,7 @@ export default struct MovieStarring {
       .scrollBarWidth(4)
       .scrollBarColor('#37e7e7e7')
       }
-      }
+  }
 
 
 }
