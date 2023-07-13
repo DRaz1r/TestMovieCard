@@ -19,7 +19,7 @@ import StyleConstants from '../common/constants/StyleConstants';
 import MovieDataBean from '../common/bean/MovieDataBean';
 import StarsWidget from './StarsWidget';
 import CommonUtils from '../common/utils/CommonUtils';
-import { Collect } from './Collect';
+import PreferencesUtil from '../common/utils/PreferencesUtil';
 
 @Preview
 @Component
@@ -34,7 +34,12 @@ export default struct MovieItem {
   private stars: Resource[];
   private rating: string;
 
-  aboutToAppear() {
+  //***标记是否收藏***
+  @State collect: boolean = false
+  //******
+
+
+  async aboutToAppear() {
     if (CommonUtils.isEmpty(this.movieItem)) {
       Logger.error(CommonConstants.TAG_MOVIE_ITEM, 'movieItem is null');
       return;
@@ -47,7 +52,23 @@ export default struct MovieItem {
     this.movieImage = this.movieItem.movieImage;
     this.stars = this.movieItem.stars;
     this.rating = this.movieItem.rating;
+
+    //***按钮-收藏***
+    this.collect = await PreferencesUtil.getChangeCollect(this.title)
+    //******
+
+
   }
+
+  //***收藏图片***
+  @Builder labelIcon(icon) {
+    Image(icon)
+      .objectFit(ImageFit.Contain)
+      .width('28vp')
+      .height('28vp')
+  }
+  //******
+
 
   build() {
     Row() {
@@ -87,8 +108,9 @@ export default struct MovieItem {
         left: $r('app.float.contents_layout_left'),
         right: $r('app.float.contents_layout_right')
       })
+
       Column() {
-        Image($r ('app.media.right_grey'))
+        Image($r('app.media.right_grey'))
           .borderRadius($r("app.float.see_button_radius"))
           .margin({ right: $r('app.float.see_button_right') })
           .width('45vp')
@@ -103,8 +125,30 @@ export default struct MovieItem {
               Logger.error(CommonConstants.TAG_MOVIE_ITEM, 'push error ' + JSON.stringify(error));
             });
           })
-        // 按钮-收藏
-        Collect()
+
+        //***删除了原来的Collect调用，合并到一起***
+        Column() {
+          if (this.collect) {
+            this.labelIcon($r('app.media.ic_star'));
+          } else {
+            this.labelIcon($r('app.media.ic_empty_star'));
+          }
+
+        }
+        .margin({ top: '15vp' })
+        .backgroundColor($r('app.color.start_window_background'))
+        .width('28vp')
+        .height('28vp')
+        //点击操作
+        .onClick(() => {
+          //反转按钮
+          this.collect = !this.collect;
+          //修改首选项数据库
+          PreferencesUtil.saveChangeCollect(this.title, this.collect)
+        })
+        //******
+
+
       }
     }
     .borderRadius($r('app.float.item_radius'))

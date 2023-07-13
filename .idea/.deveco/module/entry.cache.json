@@ -2,17 +2,17 @@
 	"BuildOptions":{
 		"SELECT_BUILD_TARGET":"default",
 		"BUILD_PATH":{
-			"OUTPUT_METADATA_JSON":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
-			"OUTPUT_PATH":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\entry\\build\\default\\outputs\\default",
-			"RES_PATH":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\entry\\build\\default\\intermediates\\res\\default",
-			"ETS_SUPER_VISUAL_PATH":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
-			"JS_ASSETS_PATH":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\entry\\build\\default\\intermediates\\loader_out\\default",
-			"INTERMEDIA_PATH":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\entry\\build\\default\\intermediates",
-			"RES_PROFILE_PATH":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
-			"WORKER_LOADER":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
-			"MANIFEST_JSON":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\entry\\build\\default\\intermediates\\manifest\\default",
-			"JS_LITE_ASSETS_PATH":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
-			"JS_SUPER_VISUAL_PATH":"H:\\SoftWare\\HarmonyTask\\MyMovieCard\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle"
+			"OUTPUT_METADATA_JSON":"D:\\DevEcoStudioProjects\\TestMovieCard\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+			"OUTPUT_PATH":"D:\\DevEcoStudioProjects\\TestMovieCard\\entry\\build\\default\\outputs\\default",
+			"RES_PATH":"D:\\DevEcoStudioProjects\\TestMovieCard\\entry\\build\\default\\intermediates\\res\\default",
+			"ETS_SUPER_VISUAL_PATH":"D:\\DevEcoStudioProjects\\TestMovieCard\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+			"JS_ASSETS_PATH":"D:\\DevEcoStudioProjects\\TestMovieCard\\entry\\build\\default\\intermediates\\loader_out\\default",
+			"INTERMEDIA_PATH":"D:\\DevEcoStudioProjects\\TestMovieCard\\entry\\build\\default\\intermediates",
+			"RES_PROFILE_PATH":"D:\\DevEcoStudioProjects\\TestMovieCard\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+			"WORKER_LOADER":"D:\\DevEcoStudioProjects\\TestMovieCard\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+			"MANIFEST_JSON":"D:\\DevEcoStudioProjects\\TestMovieCard\\entry\\build\\default\\intermediates\\manifest\\default",
+			"JS_LITE_ASSETS_PATH":"D:\\DevEcoStudioProjects\\TestMovieCard\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+			"JS_SUPER_VISUAL_PATH":"D:\\DevEcoStudioProjects\\TestMovieCard\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle"
 		}
 	},
 	"CommonInfo":{
