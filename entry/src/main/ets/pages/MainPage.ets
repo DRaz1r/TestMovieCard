@@ -14,7 +14,7 @@
  */
 
 import CommonConstants from '../common/constants/CommonConstants';
-import Home from "../view/Home"
+
 import  MinePage  from "./MinePage"
 import { MovieListPage } from './MovieListPage';
 
