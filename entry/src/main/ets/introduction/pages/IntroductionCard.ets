@@ -90,7 +90,7 @@ struct IntroductionCard {
             .width(this.FULL_WIDTH_PERCENT)
             .textOverflow({ overflow: TextOverflow.Ellipsis })
             .maxLines(1)
-            .lineHeight
+            .lineHeight(19)
           Text(this.td)
             .fontColor($r("app.color.start_window_background"))
             .fontSize(12)
