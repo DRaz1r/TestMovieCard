@@ -50,6 +50,15 @@
         "label": "$string:Entryvideoability_label",
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:start_window_background"
+      },
+      {
+        "name": "EntryShopAbility",
+        "srcEntry": "./ets/entryshopability/EntryShopAbility.ets",
+        "description": "$string:EntryShopAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryShopAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background"
       }
     ],
     "extensionAbilities": [

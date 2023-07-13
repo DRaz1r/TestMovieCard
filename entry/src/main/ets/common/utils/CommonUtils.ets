@@ -179,10 +179,12 @@ export class CommonUtils {
       topMovieImage: topMovie.movieImage,
       topTitle: topMovie.title,
       topDescribe: topMovie.describe,
+      topUrl: topMovie.weburl,
       bottomIndex: bottomMovie.sort,
       bottomMovieImage: bottomMovie.movieImage,
       bottomTitle: bottomMovie.title,
-      bottomDescribe: bottomMovie.describe
+      bottomDescribe: bottomMovie.describe,
+      bottomUrl:bottomMovie.weburl
     };
     return formData;
   }

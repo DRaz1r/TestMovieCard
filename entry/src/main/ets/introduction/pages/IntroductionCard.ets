@@ -1,7 +1,7 @@
-let cardstorage=new LocalStorage()
+let card=new LocalStorage()
 
 
-@Entry(cardstorage)
+@Entry(card)
 @Component
 struct IntroductionCard {
   @LocalStorageProp('topTitle') tt: string = '123456';

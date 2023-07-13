@@ -407,6 +407,14 @@
     {
       "name": "Entryvideoability_label",
       "value": "label"
+    },
+    {
+      "name": "EntryShopAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryShopAbility_label",
+      "value": "label"
     }
   ]
 }

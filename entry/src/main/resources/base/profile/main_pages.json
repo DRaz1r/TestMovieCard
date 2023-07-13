@@ -9,6 +9,7 @@
     "pages/WebShopPage",
     "pages/LauncherPage",
     "pages/AdvertisingPage",
-    "pages/Index"
+    "pages/Index",
+    "pages/WebShopCardPage"
   ]
 }
