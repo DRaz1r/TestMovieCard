@@ -62,11 +62,51 @@
     },
     {
       "name": "actors",
-      "value": "小明"
+      "value": "李白"
     },
     {
       "name": "play_the_role",
-      "value": "饰 大白"
+      "value": "饰 李白"
+    },
+    {
+      "name": "actors2",
+      "value": "高适"
+    },
+    {
+      "name": "play_the_role2",
+      "value": "饰 高适"
+    },
+    {
+      "name": "actors3",
+      "value": "贺知章"
+    },
+    {
+      "name": "play_the_role3",
+      "value": "饰 贺知章"
+    },
+    {
+      "name": "actors4",
+      "value": "张旭"
+    },
+    {
+      "name": "play_the_role4",
+      "value": "饰 张旭"
+    },
+    {
+      "name": "actors5",
+      "value": "王维"
+    },
+    {
+      "name": "play_the_role5",
+      "value": "饰 王维"
+    },
+    {
+      "name": "actors6",
+      "value": "玉真公主"
+    },
+    {
+      "name": "play_the_role6",
+      "value": "饰 玉真公主"
     },
     {
       "name": "stills",

@@ -38,11 +38,15 @@
     },
     {
       "name": "tips_text_color",
-      "value": "#007DFF"
+      "value": "#FF98B8D7"
     },
     {
       "name": "see_button_background",
-      "value": "#007DFF"
+      "value": "#FF98B8D7"
+    },
+    {
+      "name": "see_button_background1",
+      "value": "#FFE5C09F"
     },
     {
       "name": "white",

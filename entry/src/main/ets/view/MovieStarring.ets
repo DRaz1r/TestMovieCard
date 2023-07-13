@@ -16,7 +16,7 @@
 import CommonUtils from '../common/utils/CommonUtils';
 import StyleConstants from '../common/constants/StyleConstants';
 import DataSource from '../common/datasource/DataSource';
-@Preview
+
 @Component
 export default struct MovieStarring {
   private dataSource: DataSource<Resource>;
@@ -53,7 +53,7 @@ export default struct MovieStarring {
       })
       .width(StyleConstants.STARRING_WIDTH)
 
-      List({ space: StyleConstants.STARRING_SPACE }) {
+      /*List({ space: StyleConstants.STARRING_SPACE }) {
         LazyForEach(this.dataSource, (item: Resource) => {
           ListItem() {
             Column() {
@@ -85,6 +85,150 @@ export default struct MovieStarring {
       .margin({ left: StyleConstants.COMMON_MARGIN_LEFT })
       .width(StyleConstants.STARRING_LIST_WIDTH)
       .height(StyleConstants.STARRING_LIST_HEIGHT)
-    }
-  }
+    }*/
+      Scroll(){
+        Row(){
+          Column(){
+            Image($r('app.media.star1'))
+              .width($r('app.float.starring_image_size'))
+              .height($r('app.float.starring_image_size'))
+              .borderRadius($r('app.float.starring_image_radius'))
+            Text($r('app.string.actors'))
+              .fontSize($r('app.float.actors_font_size'))
+              .fontColor($r('app.color.common_font_color'))
+              .fontWeight(FontWeight.Normal)
+              .alignSelf(ItemAlign.Start)
+              .margin({
+                top: $r('app.float.actors_margin_top'),
+                bottom: $r('app.float.actors_margin_bottom')
+              })
+            Text($r('app.string.play_the_role'))
+              .fontSize($r('app.float.role_font_size'))
+              .opacity($r('app.float.common_opacity'))
+              .fontColor($r('app.color.common_font_color'))
+              .alignSelf(ItemAlign.Start)
+              .fontWeight(FontWeight.Normal)
+          }
+          .margin({ left:$r('app.float.vertical_line_margin'),
+            right: $r('app.float.vertical_line_margin') })
+          Column(){
+            Image($r('app.media.star2'))
+              .width($r('app.float.starring_image_size'))
+              .height($r('app.float.starring_image_size'))
+              .borderRadius($r('app.float.starring_image_radius'))
+            Text($r('app.string.actors2'))
+              .fontSize($r('app.float.actors_font_size'))
+              .fontColor($r('app.color.common_font_color'))
+              .fontWeight(FontWeight.Normal)
+              .alignSelf(ItemAlign.Start)
+              .margin({
+                top: $r('app.float.actors_margin_top'),
+                bottom: $r('app.float.actors_margin_bottom')
+              })
+            Text($r('app.string.play_the_role2'))
+              .fontSize($r('app.float.role_font_size'))
+              .opacity($r('app.float.common_opacity'))
+              .fontColor($r('app.color.common_font_color'))
+              .alignSelf(ItemAlign.Start)
+              .fontWeight(FontWeight.Normal)
+          }
+          .margin({ right: $r('app.float.vertical_line_margin') })
+          Column(){
+            Image($r('app.media.star3'))
+              .width($r('app.float.starring_image_size'))
+              .height($r('app.float.starring_image_size'))
+              .borderRadius($r('app.float.starring_image_radius'))
+            Text($r('app.string.actors3'))
+              .fontSize($r('app.float.actors_font_size'))
+              .fontColor($r('app.color.common_font_color'))
+              .fontWeight(FontWeight.Normal)
+              .alignSelf(ItemAlign.Start)
+              .margin({
+                top: $r('app.float.actors_margin_top'),
+                bottom: $r('app.float.actors_margin_bottom')
+              })
+            Text($r('app.string.play_the_role3'))
+              .fontSize($r('app.float.role_font_size'))
+              .opacity($r('app.float.common_opacity'))
+              .fontColor($r('app.color.common_font_color'))
+              .alignSelf(ItemAlign.Start)
+              .fontWeight(FontWeight.Normal)
+          }
+          .margin({ right: $r('app.float.vertical_line_margin') })
+          Column(){
+            Image($r('app.media.star4'))
+              .width($r('app.float.starring_image_size'))
+              .height($r('app.float.starring_image_size'))
+              .borderRadius($r('app.float.starring_image_radius'))
+            Text($r('app.string.actors4'))
+              .fontSize($r('app.float.actors_font_size'))
+              .fontColor($r('app.color.common_font_color'))
+              .fontWeight(FontWeight.Normal)
+              .alignSelf(ItemAlign.Start)
+              .margin({
+                top: $r('app.float.actors_margin_top'),
+                bottom: $r('app.float.actors_margin_bottom')
+              })
+            Text($r('app.string.play_the_role4'))
+              .fontSize($r('app.float.role_font_size'))
+              .opacity($r('app.float.common_opacity'))
+              .fontColor($r('app.color.common_font_color'))
+              .alignSelf(ItemAlign.Start)
+              .fontWeight(FontWeight.Normal)
+          }
+          .margin({ right: $r('app.float.vertical_line_margin') })
+          Column(){
+            Image($r('app.media.star5'))
+              .width($r('app.float.starring_image_size'))
+              .height($r('app.float.starring_image_size'))
+              .borderRadius($r('app.float.starring_image_radius'))
+            Text($r('app.string.actors5'))
+              .fontSize($r('app.float.actors_font_size'))
+              .fontColor($r('app.color.common_font_color'))
+              .fontWeight(FontWeight.Normal)
+              .alignSelf(ItemAlign.Start)
+              .margin({
+                top: $r('app.float.actors_margin_top'),
+                bottom: $r('app.float.actors_margin_bottom')
+              })
+            Text($r('app.string.play_the_role5'))
+              .fontSize($r('app.float.role_font_size'))
+              .opacity($r('app.float.common_opacity'))
+              .fontColor($r('app.color.common_font_color'))
+              .alignSelf(ItemAlign.Start)
+              .fontWeight(FontWeight.Normal)
+          }
+          .margin({ right: $r('app.float.vertical_line_margin') })
+          Column(){
+            Image($r('app.media.star6'))
+              .width($r('app.float.starring_image_size'))
+              .height($r('app.float.starring_image_size'))
+              .borderRadius($r('app.float.starring_image_radius'))
+            Text($r('app.string.actors6'))
+              .fontSize($r('app.float.actors_font_size'))
+              .fontColor($r('app.color.common_font_color'))
+              .fontWeight(FontWeight.Normal)
+              .alignSelf(ItemAlign.Start)
+              .margin({
+                top: $r('app.float.actors_margin_top'),
+                bottom: $r('app.float.actors_margin_bottom')
+              })
+            Text($r('app.string.play_the_role6'))
+              .fontSize($r('app.float.role_font_size'))
+              .opacity($r('app.float.common_opacity'))
+              .fontColor($r('app.color.common_font_color'))
+              .alignSelf(ItemAlign.Start)
+              .fontWeight(FontWeight.Normal)
+          }
+          .margin({ right: $r('app.float.vertical_line_margin') })
+        }
+      }
+      .edgeEffect(EdgeEffect.Spring)
+      .scrollable(ScrollDirection.Horizontal)
+      .scrollBarWidth(4)
+      .scrollBarColor('#37e7e7e7')
+      }
+      }
+
+
 }

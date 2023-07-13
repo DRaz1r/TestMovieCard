@@ -89,7 +89,7 @@ export default struct MovieDetailsTitle {
             .fontColor(Color.White)
             .borderRadius($r("app.float.see_button_radius"))
             .alignSelf(ItemAlign.Start)
-            .backgroundColor(Color.Pink)
+            .backgroundColor($r("app.color.see_button_background1"))
             .width($r("app.float.see_button_width"))
             .height($r("app.float.see_button_height"))
             .margin({right: '10vp', left: '10vp'})
