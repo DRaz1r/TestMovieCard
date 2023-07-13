@@ -735,6 +735,14 @@
     {
       "name": "launcher_text_opacity",
       "value": "0.6"
+    },
+    {
+      "name": "introduction_lr_margin",
+      "value": "4vp"
+    },
+    {
+      "name": "introduction_between_margin",
+      "value": "4vp"
     }
   ]
 }

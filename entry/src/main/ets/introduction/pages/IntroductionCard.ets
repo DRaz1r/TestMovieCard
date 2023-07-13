@@ -39,12 +39,36 @@ struct IntroductionCard {
    * The height percentage setting.
    */
   readonly FULL_HEIGHT_PERCENT: string = '100%';
-  readonly HALF_HEIGHT_PERCENT: string = '50%';
+  readonly FILM_HEIGHT_PERCENT: string = '45%';
   readonly TARGET_TEXT_OPACITY: number = 0.8;
   readonly DESCRIBTION_LEFT_MARGIN: string = '10vp';
   readonly DESCRIBTION_TOP_MARGIN: string = '10vp';
   build() {
     Column() {
+      Row() {
+        Image($r('app.media.ic_applogo'))
+          .height('100%')
+          .margin({left: $r('app.float.introduction_lr_margin'), right: $r('app.float.introduction_between_margin')})
+        Text("今日电影推荐")
+          .fontSize(12)
+          .fontColor($r("app.color.start_window_background"))
+          .fontWeight(500)
+          .margin({left: $r('app.float.introduction_between_margin'), right: $r('app.float.introduction_between_margin')})
+        Image($r('app.media.ic_refresh'))
+          .margin({left: $r('app.float.introduction_between_margin'), right: $r('app.float.introduction_lr_margin')})
+          .width('20vp')
+          .height('20vp')
+          .onClick(() => {
+            console.log("click the refresh button");
+            postCardAction(this, {
+              'action': 'message',
+              'params': {
+                'msgTest': 'messageEventByIntro'
+              }
+            });
+          })
+      }
+      .height('10%')
       Row() {
         Image(this.ti)
           .objectFit(ImageFit.Cover)
@@ -57,6 +81,7 @@ struct IntroductionCard {
             right:$r('app.float.card_padding')
           })
           .borderRadius(10)
+
         Column() {
           Text(this.tt)
             .fontSize(14)
@@ -65,7 +90,7 @@ struct IntroductionCard {
             .width(this.FULL_WIDTH_PERCENT)
             .textOverflow({ overflow: TextOverflow.Ellipsis })
             .maxLines(1)
-            .lineHeight(19)
+            .lineHeight
           Text(this.td)
             .fontColor($r("app.color.start_window_background"))
             .fontSize(12)
@@ -78,7 +103,7 @@ struct IntroductionCard {
               top: this.DESCRIBTION_TOP_MARGIN})
         }
       }
-      .height(this.HALF_HEIGHT_PERCENT)
+      .height(this.FILM_HEIGHT_PERCENT)
       .onClick(() => {
         postCardAction(this, {
           "action": this.ACTION_TYPE,
@@ -124,7 +149,7 @@ struct IntroductionCard {
               top: this.DESCRIBTION_TOP_MARGIN})
         }
       }
-      .height(this.HALF_HEIGHT_PERCENT)
+      .height(this.FILM_HEIGHT_PERCENT)
       .onClick(() => {
         postCardAction(this, {
           "action": this.ACTION_TYPE,

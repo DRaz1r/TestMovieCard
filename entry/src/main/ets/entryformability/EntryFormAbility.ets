@@ -52,11 +52,44 @@ export default class EntryFormAbility extends FormExtensionAbility {
     });
     let listData: MovieDataBean[] = CommonUtils.getListData();
     let formData = CommonUtils.getFormData(listData);
-    let tem =formBindingData.createFormBindingData(formData);
+    let tem = formBindingData.createFormBindingData(formData);
     formProvider.updateForm(formId, tem).catch((err) => {
       Logger.error('error', `processDayData updateForm, err: ${JSON.stringify(err)}`);
     });
     return tem;
+  }
+  /*
+  //   通过message事件刷新卡片内容
+   */
+  onFormEvent(formId, message) {
+    // Called when a specified message event defined by the form provider is triggered.
+    console.log(`FormAbility onEvent, formId = ${formId}, message: ${JSON.stringify(message)}`);
+    // 解析 JSON 字符串
+    let messageParse = JSON.parse(message);
+    // 提取 "msgTest" 键的值
+    let msgTestValue = messageParse.msgTest;
+    if (msgTestValue === "messageEventByIntro")
+    {
+      let listData: MovieDataBean[] = CommonUtils.getListData();
+      let formData = CommonUtils.getFormData(listData);
+      let tem = formBindingData.createFormBindingData(formData);
+      formProvider.updateForm(formId, tem).catch((err) => {
+        Logger.error('error', `processDayData updateForm, err: ${JSON.stringify(err)}`);
+      });
+    } else if (msgTestValue === "messageEventByVideo") {
+      let listData: MovieDataBean[] = CommonUtils.getListData();
+      let oneRandom: number = CommonUtils.getRandomInt(listData.length);
+      let topMovie: MovieDataBean = listData[oneRandom];
+      console.log(JSON.stringify(topMovie));
+      let formData = {
+        topIndex: topMovie.sort,
+        topMovieImage: topMovie.movieImage
+      }
+      let tem = formBindingData.createFormBindingData(formData);
+      formProvider.updateForm(formId, tem).catch((err) => {
+        Logger.error('error', `processDayData updateForm, err: ${JSON.stringify(err)}`);
+      });
+      }
   }
 
   onUpdateForm(formId: string) {

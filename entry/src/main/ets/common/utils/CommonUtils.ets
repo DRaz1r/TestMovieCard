@@ -112,7 +112,6 @@ export class CommonUtils {
     }
     return roundNumber;
   }
-
   /**
    * Delete form data.
    *
