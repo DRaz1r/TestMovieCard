@@ -69,7 +69,7 @@ export struct MovieListPage {
         .margin({ bottom : '20vp'} )
         .autoPlay(true)
         .width(StyleConstants.ITEM_WIDTH)
-        .height($r('app.float.item_height'))
+        .height($r('app.float.swiper_height'))
 
         // 文本-热门电影排行
         Text($r('app.string.list_page_title'))

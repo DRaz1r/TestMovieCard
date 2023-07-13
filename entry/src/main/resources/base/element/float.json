@@ -233,6 +233,10 @@
       "value": "116vp"
     },
     {
+      "name": "swiper_height",
+      "value": "160vp"
+    },
+    {
       "name": "stills_title_size",
       "value": "16fp"
     },
