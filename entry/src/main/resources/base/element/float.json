@@ -662,7 +662,7 @@
     },
     {
       "name": "introduction_image_width",
-      "value": "44vp"
+      "value": "55vp"
     },
     {
       "name": "advertising_text_padding_right",
@@ -706,7 +706,7 @@
     },
     {
       "name": "agency_row_padding",
-      "value": "10vp"
+      "value": "5vp"
     },
     {
       "name": "card_padding",

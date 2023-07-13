@@ -367,6 +367,14 @@
     {
       "name": "app_open_warn_2",
       "value": "This application does not provide any form of guarantee or warranty, whether express or implied."
+    },
+    {
+      "name": "Entryvideoability_desc",
+      "value": "description"
+    },
+    {
+      "name": "Entryvideoability_label",
+      "value": "label"
     }
   ]
 }

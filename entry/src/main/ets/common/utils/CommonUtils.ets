@@ -176,11 +176,11 @@ export class CommonUtils {
     let bottomMovie: MovieDataBean = listData[twoRandom];
     let formData = {
       topIndex: topMovie.sort,
-      topMovieImage: topMovie.cardImage,
+      topMovieImage: topMovie.movieImage,
       topTitle: topMovie.title,
       topDescribe: topMovie.describe,
       bottomIndex: bottomMovie.sort,
-      bottomMovieImage: bottomMovie.cardImage,
+      bottomMovieImage: bottomMovie.movieImage,
       bottomTitle: bottomMovie.title,
       bottomDescribe: bottomMovie.describe
     };

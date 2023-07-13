@@ -28,7 +28,7 @@ import {
 @Entry
 @Component
 struct Play {
-  private source: string = router.getParams()['source'];
+  private source: Resource = $rawfile('videoTest.mp4');
   private startIconResource: Resource = $r('app.media.ic_public_play');
   private backIconResource: Resource = $r('app.media.ic_back');
   @Provide isPlay: boolean = false;

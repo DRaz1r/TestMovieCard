@@ -2,7 +2,7 @@
   "color": [
     {
       "name": "start_window_background",
-      "value": "#FFFFFF"
+      "value": "#FF161515"
     },
     {
       "name": "index_backgroundColor",
@@ -138,7 +138,7 @@
     },
     {
       "name": "card_background",
-      "value": "#CCCCCC"
+      "value": "#FFF3E9E9"
     }
   ]
 }

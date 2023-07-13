@@ -319,6 +319,14 @@
     {
       "name": "app_open_warn_2",
       "value": "本应用不提供任何形式的担保或保证，无论明示或暗示。"
+    },
+    {
+      "name": "Entryvideoability_desc",
+      "value": "description"
+    },
+    {
+      "name": "Entryvideoability_label",
+      "value": "label"
     }
   ]
 }

@@ -41,6 +41,15 @@
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:start_window_background",
         "exported": true
+      },
+      {
+        "name": "Entryvideoability",
+        "srcEntry": "./ets/entryvideoability/Entryvideoability.ets",
+        "description": "$string:Entryvideoability_desc",
+        "icon": "$media:icon",
+        "label": "$string:Entryvideoability_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background"
       }
     ],
     "extensionAbilities": [

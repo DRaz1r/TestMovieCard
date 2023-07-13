@@ -8,6 +8,7 @@
     "pages/SimpleVideoPlay",
     "pages/WebShopPage",
     "pages/LauncherPage",
-    "pages/AdvertisingPage"
+    "pages/AdvertisingPage",
+    "pages/Index"
   ]
 }
