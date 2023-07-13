@@ -282,6 +282,11 @@ export default class CommonConstants {
   static readonly DIALOG_ROW_MARGIN_BOTTOM: string = '3.1%';
 
   /**
+   * Dialog component top margin,
+   */
+  static readonly DIALOG_ROW_MARGIN_TOP: string = '3.1%';
+
+  /**
    * The custom dialog component tag.
    */
   static readonly CUSTOM_DIALOG_TAG: string = 'CustomDialogComponent';

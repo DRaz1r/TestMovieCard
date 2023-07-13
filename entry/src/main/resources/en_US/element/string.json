@@ -277,14 +277,6 @@
       "value": "Welcome To My App"
     },
     {
-      "name": "dialog_text_privacy_content",
-      "value": "We fully respect users' privacy rights and provide appropriate security protection measures for your personal information in accordance with legal requirements and mature security standards in the industry."
-    },
-    {
-      "name": "dialog_text_privacy_statement",
-      "value": "Privacy Agreement Protection Statement"
-    },
-    {
       "name": "dialog_text_declaration_prompt",
       "value": "(hereinafter referred to as \\\"this statement\\\") to help you understand how we collect, use, disclose, protect, store and transmit your personal data. Please read this statement carefully. If you have any questions, please let us know."
     },
@@ -327,6 +319,14 @@
     {
       "name": "film_launcher_content",
       "value": "Watch what you want"
+    },
+    {
+      "name": "app_open_warn_1",
+      "value": "This application is a learning application developed and provided by individuals, only for personal learning and reference purposes."
+    },
+    {
+      "name": "app_open_warn_2",
+      "value": "This application does not provide any form of guarantee or warranty, whether express or implied."
     }
   ]
 }

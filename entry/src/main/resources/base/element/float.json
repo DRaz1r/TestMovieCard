@@ -1,6 +1,14 @@
 {
   "float": [
     {
+      "name": "dialog_content_margin_top",
+      "value": "5vp"
+    },
+    {
+      "name": "dialog_content_margin_bottom",
+      "value": "5vp"
+    },
+    {
       "name": "line_margin_left",
       "value": "12vp"
     },

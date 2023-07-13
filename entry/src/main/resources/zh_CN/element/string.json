@@ -229,14 +229,6 @@
       "value": "欢迎使用我的应用"
     },
     {
-      "name": "dialog_text_privacy_content",
-      "value": "我们充分尊重用户的隐私权，并按照法律要求和业界成熟的安全标准，为您的个人信息提供相应的安全保护措施。"
-    },
-    {
-      "name": "dialog_text_privacy_statement",
-      "value": "隐私协议保护声明"
-    },
-    {
       "name": "dialog_text_declaration_prompt",
       "value": "（以下简称为“本声明”）以便您了解我们如何搜集、使用、披露、保护、存储及传输您的个人数据。请您仔细阅读本声明。如您有任何疑问，请告知我们。"
     },
@@ -279,6 +271,14 @@
     {
       "name": "film_launcher_content",
       "value": "看你想看"
+    },
+    {
+      "name": "app_open_warn_1",
+      "value": "本应用是由个人开发并提供的学习应用，仅供个人学习和参考之用。"
+    },
+    {
+      "name": "app_open_warn_2",
+      "value": "本应用不提供任何形式的担保或保证，无论明示或暗示。"
     }
   ]
 }

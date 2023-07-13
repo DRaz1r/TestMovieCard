@@ -1,10 +1,9 @@
-import router from '@ohos.router';
-import Logger from '../common/utils/Logger';
 import CommonConstants from '../common/constants/CommonConstants';
 
 /**
  * Custom pop-up window.
  */
+@Preview
 @CustomDialog
 export default struct CustomDialogComponent {
   controller: CustomDialogController;
@@ -23,27 +22,14 @@ export default struct CustomDialogComponent {
           top: $r('app.float.dialog_text_privacy_top'),
           bottom: $r('app.float.dialog_text_privacy_bottom')
         })
-      Text($r('app.string.dialog_text_privacy_content'))
+      Text($r('app.string.app_open_warn_1'))
         .fontSize($r('app.float.dialog_common_text_size'))
         .width(CommonConstants.DIALOG_COMPONENT_WIDTH_PERCENT)
-      Text($r('app.string.dialog_text_privacy_statement'))
-        .width(CommonConstants.DIALOG_COMPONENT_WIDTH_PERCENT)
-        .fontColor($r('app.color.dialog_text_statement_color'))
+        .margin({top: $r('app.float.dialog_content_margin_top'),
+            bottom: $r('app.float.dialog_content_margin_bottom')})
+      Text($r('app.string.app_open_warn_2'))
         .fontSize($r('app.float.dialog_common_text_size'))
-      // .onClick(() => {
-      //   globalThis.isJumpPrivacy = true;
-      //   router.pushUrl({
-      //     url: CommonConstants.PRIVACY_PAGE_URL
-      //   }).catch((error) => {
-      //     Logger.error(CommonConstants.CUSTOM_DIALOG_TAG, 'CustomDialog pushUrl error ' + JSON.stringify(error));
-      //   });
-      // })
-      Text($r('app.string.dialog_text_declaration_prompt'))
         .width(CommonConstants.DIALOG_COMPONENT_WIDTH_PERCENT)
-        .fontColor($r('app.color.dialog_text_color'))
-        .fontSize($r('app.float.dialog_common_text_size'))
-        .opacity($r('app.float.dialog_text_opacity'))
-        .margin({ bottom: $r('app.float.dialog_text_declaration_bottom') })
       Row() {
         Text($r('app.string.dialog_button_disagree'))
           .fancy()
@@ -62,7 +48,8 @@ export default struct CustomDialogComponent {
             this.confirm();
           })
       }
-      .margin({ bottom: CommonConstants.DIALOG_ROW_MARGIN_BOTTOM })
+      .margin({ bottom: CommonConstants.DIALOG_ROW_MARGIN_BOTTOM ,
+      top: CommonConstants.DIALOG_ROW_MARGIN_TOP})
     }
     .width(CommonConstants.DIALOG_WIDTH_PERCENT)
     .borderRadius(CommonConstants.DIALOG_BORDER_RADIUS)
