@@ -68,8 +68,8 @@ struct AdvertisingPage {
 
       Row() {
         Image($r('app.media.ic_logo'))
-        .width('54vp')
-        .height('54vp')
+          .width('54vp')
+          .height('54vp')
 
       }
       .alignItems(VerticalAlign.Bottom)

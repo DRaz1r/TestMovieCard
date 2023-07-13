@@ -50,7 +50,7 @@ struct LauncherPage {
   /**
    * Jump to advertising page.
    */
-   jumpToAdvertisingPage() {
+  jumpToAdvertisingPage() {
     this.timerId = setTimeout(() => {
       this.isJumpToAdvertising = true;
       router.pushUrl({
@@ -135,8 +135,7 @@ struct LauncherPage {
   }
 }
 // Healthy living text common styles.
-@Extend(Text) function healthyLifeTextStyle (fontWeight: number,
-                                             textAttribute: number, fontSize: Resource, fontColor: Resource) {
+@Extend(Text) function healthyLifeTextStyle(fontWeight: number, textAttribute: number, fontSize: Resource, fontColor: Resource) {
   .fontWeight(fontWeight)
   .letterSpacing(textAttribute)
   .fontSize(fontSize)

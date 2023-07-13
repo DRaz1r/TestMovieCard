@@ -30,14 +30,14 @@ export default struct CustomDialogComponent {
         .width(CommonConstants.DIALOG_COMPONENT_WIDTH_PERCENT)
         .fontColor($r('app.color.dialog_text_statement_color'))
         .fontSize($r('app.float.dialog_common_text_size'))
-        // .onClick(() => {
-        //   globalThis.isJumpPrivacy = true;
-        //   router.pushUrl({
-        //     url: CommonConstants.PRIVACY_PAGE_URL
-        //   }).catch((error) => {
-        //     Logger.error(CommonConstants.CUSTOM_DIALOG_TAG, 'CustomDialog pushUrl error ' + JSON.stringify(error));
-        //   });
-        // })
+      // .onClick(() => {
+      //   globalThis.isJumpPrivacy = true;
+      //   router.pushUrl({
+      //     url: CommonConstants.PRIVACY_PAGE_URL
+      //   }).catch((error) => {
+      //     Logger.error(CommonConstants.CUSTOM_DIALOG_TAG, 'CustomDialog pushUrl error ' + JSON.stringify(error));
+      //   });
+      // })
       Text($r('app.string.dialog_text_declaration_prompt'))
         .width(CommonConstants.DIALOG_COMPONENT_WIDTH_PERCENT)
         .fontColor($r('app.color.dialog_text_color'))

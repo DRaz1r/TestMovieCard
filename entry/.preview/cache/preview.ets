@@ -1,1 +1,0 @@
-struct preview{build(){Image(img).borderRadius($r('app.float.home_swiper_borderRadius'))}}
