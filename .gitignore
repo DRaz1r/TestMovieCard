@@ -2,3 +2,5 @@
 /entry/.preview
 /.hvigor
 /entry/build
+.gitignore
+.idea/
